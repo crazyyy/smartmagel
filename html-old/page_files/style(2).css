@@ -1,0 +1,111 @@
+.sns-productlist.style-default .col-1{width: 100%;}
+.sns-productlist.style-default .col-2{width: 50%;}
+.sns-productlist.style-default .col-3{width: 33.33%;}
+.sns-productlist.style-default .col-4{width: 25%;}
+.sns-productlist.style-default .col-5{width: 20%;}
+.sns-productlist.style-default .col-6{width: 16.66%;}
+.sns-productlist.style-default .item{float: left;}
+.sns-productlist.style-default .item.first{clear: both}
+.sns-productlist.style-default .item .item-inner{
+	padding: 10px;
+}
+.sns-productlist.style-default .item-box{position: relative;}
+.sns-productlist.style-default .item-box .ico-product{position: absolute; left: 10px; top: 10px;}
+
+.sns-productlist .pdt-list .item{padding-left: 15px; padding-right: 15px; float: left;}
+.sns-productlist .wide-6 .item{ width: 16.66%;}
+.sns-productlist .wide-5 .item{ width: 20%;}
+.sns-productlist .wide-4 .item{ width: 25%;}
+.sns-productlist .wide-3 .item{ width: 33.33%;}
+.sns-productlist .wide-2 .item{ width: 50%;}
+.sns-productlist .wide-1 .item{ width: 100%;}
+
+/*--- For devices---*/
+@media (max-width: 479px){
+	.sns-productlist .pdt-list .item.mobileportrait-first{margin-left: 0px;}
+	.sns-productlist .pdt-list .item{padding-left: 15px; padding-right: 15px; float: left;
+		-webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	}
+	.sns-productlist .mobileportrait-6 .item{ width: 16.66%;}
+	.sns-productlist .mobileportrait-5 .item{ width: 20%; }
+	.sns-productlist .mobileportrait-4 .item{ width: 25%;}
+	.sns-productlist .mobileportrait-3 .item{ width: 33.33%;}
+	.sns-productlist .mobileportrait-2 .item{ width: 50%; }
+	.sns-productlist .mobileportrait-1 .item{ width: 100%; }
+}
+@media (min-width: 480px) and (max-width: 767px){
+	.sns-productlist .pdt-list .item.mobilelandscape-first{margin-left: 0px;}
+	.sns-productlist .pdt-list .item{padding-left: 15px; padding-right: 15px; float: left;
+		-webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	}
+	.sns-productlist .mobilelandscape-6 .item{ width: 16.66%;}
+	.sns-productlist .mobilelandscape-5 .item{ width: 20%; }
+	.sns-productlist .mobilelandscape-4 .item{ width: 25%;}
+	.sns-productlist .mobilelandscape-3 .item{ width: 33.33%;}
+	.sns-productlist .mobilelandscape-2 .item{ width: 50%; }
+	.sns-productlist .mobilelandscape-1 .item{ width: 100%; }
+}
+
+@media (min-width: 768px) and (max-width: 979px){
+	.sns-productlist .pdt-list .item.tabletportrait-first{margin-left: 0px;}
+	.sns-productlist .pdt-list .item{padding-left: 15px; padding-right: 15px; float: left;
+		-webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	}
+	.sns-productlist .tabletportrait-6 .item{ width: 16.66%;}
+	.sns-productlist .tabletportrait-5 .item{ width: 20%; }
+	.sns-productlist .tabletportrait-4 .item{ width: 25%;}
+	.sns-productlist .tabletportrait-3 .item{ width: 33.33%;}
+	.sns-productlist .tabletportrait-2 .item{ width: 50%; }
+	.sns-productlist .tabletportrait-1 .item{ width: 100%; }
+}
+
+@media (min-width: 980px) and (max-width: 1199px){
+	.sns-productlist .pdt-list .item.tabletlandscape-first{margin-left: 0px;}
+	.sns-productlist .pdt-list .item{padding-left: 15px; padding-right: 15px; float: left;
+		-webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	}
+	.sns-productlist .tabletlandscape-6 .item{ width: 16.66%;}
+	.sns-productlist .tabletlandscape-5 .item{ width: 20%; }
+	.sns-productlist .tabletlandscape-4 .item{ width: 25%;}
+	.sns-productlist .tabletlandscape-3 .item{ width: 33.33%;}
+	.sns-productlist .tabletlandscape-2 .item{ width: 50%;}
+	.sns-productlist .tabletlandscape-1 .item{ width: 100%; }
+}
+
+@media (min-width: 1200px ) and (max-width: 1599px){
+	.sns-productlist .pdt-list .item.normal-first{margin-left: 0px;}
+	.sns-productlist .pdt-list .item{padding-left: 15px; padding-right: 15px; float: left;
+		-webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	}
+	.sns-productlist .normal-6 .item{ width: 16.66%;}
+	.sns-productlist .normal-5 .item{ width: 20%; }
+	.sns-productlist .normal-4 .item{ width: 25%;}
+	.sns-productlist .normal-3 .item{ width: 33.33%;}
+	.sns-productlist .normal-2 .item{ width: 50%;}
+	.sns-productlist .normal-1 .item{ width: 100%;}
+}
+
+@media (min-width: 1600px ){
+	.sns-productlist .pdt-list .item.wide-first{margin-left: 0px;}
+	.sns-productlist .pdt-list .item{padding-left: 15px; padding-right: 15px; float: left;
+		-webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	}
+	.sns-productlist .wide-6 .item{ width: 16.66%;}
+	.sns-productlist .wide-5 .item{ width: 20%;}
+	.sns-productlist .wide-4 .item{ width: 25%;}
+	.sns-productlist .wide-3 .item{ width: 33.33%;}
+	.sns-productlist .wide-2 .item{ width: 50%;}
+	.sns-productlist .wide-1 .item{ width: 100%;}
+}

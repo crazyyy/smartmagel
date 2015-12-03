@@ -1,0 +1,180 @@
+a {text-decoration: none;}
+.configurator {width: 980px; margin: 0 auto;}
+.configurator_select_qty {width: 100%; height: auto;}
+.configurator_balls {width: 100%; height: auto; min-height: 280px;}
+.configurator_add_to_card {width: 100%; height: auto; clear: both; }
+.configurator_select_qty h3 {color: #8d8b8c; float: left; margin: 30px 10px 30px 20px;}
+.configurator_select_qty ul {list-style: none;}
+.configurator_select_qty ul > li {display: inline; float: left; margin-bottom: 20px;}
+.configurator_select_qty ul li.last {margin-top: 44px;}
+.configurator_select_qty ul li:first-child {width: 25%; margin-left: -40px;}
+.configurator_select_qty a {margin: 0 20px;}
+.configurator_select_qty #step_1 {background: url('../images/1.jpg') no-repeat; width: 30px; height: 30px; float: left; margin: 27px 0;}
+.configurator_balls ul {list-style: none; clear: both;}
+.configurator_balls ul li:first-child {width: 30%; margin-left: -40px;}
+.configurator_balls ul li:last-child {width: 25%;}
+.configurator_balls ul > li {display: inline; float: left;}
+.configurator_balls h3 {color: #8d8b8c; float: left; margin: 30px 20px 30px 25px;}
+.configurator_balls h5 {color: #8d8b8c; float: left; margin: -20px 0 0 54px;}
+.configurator_balls .ball_info {width: 214px; height: 214px; float: right;}
+.configurator_balls .ball_info .ball_image {width: 214px; height: 214px; display: block;}
+.configurator_balls .ball_info h3 {color: #8d8b8c; float: left; margin: 10px 0px; text-align: center; width: 100%;}
+.configurator_balls #step_2 {background: url('../images/2.jpg') no-repeat; width: 30px; height: 30px; float: left; margin: 27px 0;}
+.configurator_balls .balls_wrapper{width: 460px}
+.configurator_balls .colors_balls {width: 42px; height: 42px; float:left;margin:3px;display: none}
+.configurator_balls .colors_balls.show {display: block}
+.configurator_balls .colors_balls.active {border-radius: 50%; border: solid 2px #8d8b8c;}
+.configurator_balls .colors_balls.disabled {opacity:0.5}
+.configurator_add_to_card #step_3 {background: url('../images/3.jpg') no-repeat; width: 30px; height: 30px; float: left; margin: 27px 0;}
+.configurator_select_qty .balls_qty {width: 110px; height: 110px; display: block;border-radius: 50%;box-shadow: 0 0 0 2px rgba(141,139,140,0.25) inset; margin: 0 20px; cursor: pointer; transition-duration:0.5s; -webkit-transition-duration:0.5s;}
+.configurator_select_qty .balls_qty:hover {background-position:0 -95%}
+.configurator_select_qty .balls_qty.active {background-position:0 -95%}
+.configurator_select_qty .qty_info_line1 {display: block; border-bottom: 1px #8d8b8c solid; height: 2px; margin: 0 10px;}
+.configurator_select_qty .qty_info_up {color: #8d8b8c; font-size: 40px; display: block; text-align: center; font-weight: bold; margin-bottom: -6px;}
+.configurator_select_qty .qty_info_price {color: #8d8b8c; font-size: 14px; display: block; text-align: center; padding: 5px 0;}
+.configurator_select_qty .balls_qty.active .qty_info_line1 {display: block; border-bottom: 1px #fff solid; height: 2px; margin: 0 10px;}
+.configurator_select_qty .balls_qty.active .qty_info_up {color: #fff; font-size: 40px; display: block; text-align: center; font-weight: bold; margin-bottom: -6px;}
+.configurator_select_qty .balls_qty.active .qty_info_price {color: #fff; font-size: 14px; display: block; text-align: center; padding: 5px 0;}
+.configurator_select_qty .qty_info {color: #8d8b8c; font-size: 12px; display: block; text-align: center; padding: 2px 0;}
+.configurator_select_qty .qty_info_line {display: block; border-bottom: 1px #8d8b8c dashed; height: 2px; }
+.configurator_select_qty .configurator_images {width: 100%; height: 360px; display: block; clear: both;position:relative}
+.configurator_select_qty .configurator_image {width: 100%; height: 360px; display: block;}
+.configurator_select_qty .cord {width: 100%; height: 360px;display:none;background-position: 50%}
+.configurator_select_qty .cord.active {display:block}
+.configurator_select_qty .cord img{position:absolute;cursor:pointer}
+.configurator_select_qty .configurator_images #bulb {background: url('../images/bulb.jpg') no-repeat; width: 81px; height: 82px; display: block; float: right; margin: 20px 20px 0 0; cursor: pointer;position:absolute;top:20px;right:20px;z-index: 15}
+.configurator_select_qty div.light {background: #fff;}
+.configurator_select_qty div.dark {background: #000;}
+.configurator_add_to_card ul {list-style: none;}
+.configurator_add_to_card ul > li {display: inline; float: left;}
+.configurator_add_to_card ul li:first-child {width: 25%; margin-left: -40px;}
+.configurator_add_to_card ul li:last-child {float: right;}
+.configurator_add_to_card h3 {color: #8d8b8c; float: left; margin: 30px 5px 30px 20px;}
+.configurator_add_to_card h5,.configurator_add_to_card i {color: #8d8b8c; float: left; margin: 35px 20px 0 25px;}
+.configurator_add_to_card .button_add_to_cart {background: #1dbfe6; color: #fff; border: none; width: 204px; height: 40px; text-transform: uppercase; margin: 22px 0;}
+.configurator_add_to_card .middle {width:500px}
+.configurator_add_to_card .comment_textarea {border-radius: 2%;border: solid 2px #8d8b8c;width: 90%;margin: 2% 5%; resize:none}
+.configurator_add_to_card .qty_wrapper input {border-radius: 50%;width: 56px;height: 56px;border: 2px solid #8d8b8c;text-align: center;font-size: 25px;margin: 10px 5px;color: #8d8d8d;vertical-align: middle;padding: 0 0 4px 0;float: left;}
+.configurator_add_to_card .qty_wrapper .minus,.configurator_add_to_card .qty_wrapper .plus {float: left;margin: 16px 0 0 3px;font-size: 30px;font-weight: bold;cursor:pointer}
+.configurator_add_to_card .qty_wrapper .minus{margin:16px 3px 0 20px}
+.configurator_add_to_card .qty_wrapper .qty{float: left;margin: 30px 0 0;}
+.configurator_add_to_card .qty_wrapper label{float: left;margin: 30px 0 0 25px;}
+
+@media all and (max-width: 1050px) {
+	.configurator {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.configurator_select_qty ul li:first-child {
+		width: 100%;
+		margin: 0 auto;	
+	}
+	.configurator_balls ul li:first-child {
+		width: 100%;
+		margin: 0 auto;	
+		padding-bottom: 20px;
+	}
+	.configurator_add_to_card ul li:first-child {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.configurator_balls .balls_wrapper {
+		width: 75%;
+	}
+	.configurator_balls .ball_info {
+		width: 100%;
+		height: 100%;
+		float: right;
+	}
+	.configurator_balls .ball_info .ball_image {
+		width: 100%;
+		height: 100%;
+		float: right;
+	}
+	.configurator_select_qty .balls_qty {
+		width: 55px;
+		height: 55px;
+		display: block;
+		border-radius: 50%;
+		box-shadow: 0 0 0 2px rgba(141,139,140,0.25) inset;
+		margin: 0 10px;
+		cursor: pointer;
+		transition-duration: 0.5s;
+		-webkit-transition-duration: 0.5s;
+		background-size: 100% 205%;
+	}
+	.configurator_select_qty .configurator_images {
+		width: 100%;
+		height: 100%;
+		display: block;
+		clear: both;
+		position: relative;
+	}
+	.configurator_select_qty .cord {
+		width: 100%;
+		height: 100%;
+		display: none;
+		background-position: 50%;
+	}
+	.configurator_select_qty ul li.last {
+	margin-top: 9px;
+	}
+	.configurator_select_qty .balls_qty.active {
+		background-position: 0 -95%;
+	}
+	.configurator_select_qty .cord.active {
+		background-size: 100% 100%;
+	}
+	.configurator_select_qty .configurator_images #bulb {
+		background-size: 100% 100%;
+		width: 50px !important;
+		height: 50px !important;
+		margin: 0;	
+		top: 5px;
+		right: 5px;
+	}
+	.configurator_add_to_card .middle {
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
+#manual_mode_wraper{border: 1px solid #c6c5c5;border-width: 1px 0;float: left;width:432px;padding: 7px;}
+#manual_mode_wraper div{float:left;font-size: 11px;font-weight: bold;cursor:pointer}
+#manual_mode_wraper .active{color:#00bfe4}
+#auto_mode_label{width: 130px;}
+#manual_mode_label{width: 140px;}
+
+
+.switch-button-label {
+    float: left;
+    font-size: 10pt;
+    cursor: pointer;
+}
+.switch-button-label.off {
+    color: #adadad;
+}
+.switch-button-label.on {
+    color: #00c4e6;
+}
+.switch-button-background {
+    float: left;
+    position: relative;
+    background: #ccc;
+    border: 1px solid #aaa;
+    margin: 1px 10px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.switch-button-button {
+    position: absolute;
+    left: -1px;
+    top : -1px;
+    background: #FAFAFA;
+    border: 1px solid #aaa;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}

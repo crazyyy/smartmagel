@@ -1,0 +1,4 @@
+try{var _qS = document.createElement('script');
+ _qS.type = 'text/javascript'; _qS.async = true;
+ _qS.src = '//api.quartic.pl/creation/snippetHtml?customer=558407ac098c6905&slot=rtb_6283&creation=connect_6283_to_1605&width=800&height=200&cb=49df8&clickTag=&ci=42110&qdpi=4kc9&qrid=ad_56603db9d91ea&dm=WyJicF9wcm9kdWN0X29zdGF0bmlvX29nbGFkYW5lMiIsIjgwMHgyMDAiLCIiLCIiXQ==&qparams=eyJ1IjoiIiwicCI6Ijk1NCJ9';
+document.getElementById('_qS_4kc9').appendChild(_qS);}catch(e){console.log('QON: '+e.message);}

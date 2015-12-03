@@ -1,0 +1,60 @@
+#galley_rwd ul {
+   /* Prevent vertical gaps */
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+   -webkit-column-count: 5;
+   -webkit-column-gap:   8px;
+   -moz-column-count:    5;
+   -moz-column-gap:      8px;
+   column-count:         5;
+   column-gap:           8px;
+}
+
+#galley_rwd ul li { position: relative; margin-bottom: 8px;}
+
+#galley_rwd ul li div.img { position: relative; z-index: 1;}
+#galley_rwd ul li div.desc { display: none; position: absolute; z-index: 2; width: calc(100% - 12px); height: calc(100% - 12px); top: 6px; left: 6px; background-color: rgba(0, 0, 0, 0.55); text-align: center; }
+#galley_rwd ul li:hover div.desc { display: block; }
+#galley_rwd ul li div.gall_ico {width: 100%;text-align: center; position: absolute; top: 15%;}
+#galley_rwd ul li div.gall_ico a {display: inline-block; width:47px; height: 46px; margin: 0 3px; opacity: 0.8;}
+#galley_rwd ul li div.gall_ico a:hover {opacity:1;}
+#galley_rwd ul li div.gall_ico a.imgurl { background: url(gall_url.png);}
+#galley_rwd ul li div.gall_ico a.zoom { background: url(gall_zoom.png);}
+#galley_rwd ul li div.description { position: absolute; width: 100%; bottom: 10%; text-align: center; }
+#galley_rwd ul li p.desc {position: relative; display: inline-block; background: #000; font-size: 11px; color: #ffffff; font-family: Open Sans, sans-serif; font-weight: 600; padding: 0 4px; line-height: 16px;}
+
+#galley_rwd ul li img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+
+@media (max-width: 1200px) {
+  #galley_rwd ul {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+@media (max-width: 1000px) {
+  #galley_rwd ul {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 800px) {
+  #galley_rwd ul {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  #galley_rwd ul {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
