@@ -1,0 +1,1073 @@
+body {
+  &#bd {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+  }
+  &.boxed-layout {
+    background-color: #fff;
+    background-image: url('../img/pattern3.png');
+  }
+  &#bd {
+    font-family: Open Sans, sans-serif;
+  }
+}
+
+input,
+button,
+select,
+textarea,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Open Sans, sans-serif;
+}
+
+.fancybox-margin {
+  margin-right: 17px;
+}
+
+a {
+  &.PIN_1449147342050_pin_it_button_20 {
+    width: 40px !important;
+    height: 20px !important;
+    padding: 0 !important;
+
+    cursor: pointer !important;
+    vertical-align: baseline !important;
+    text-decoration: none !important;
+
+    background-repeat: none !important;
+    background-position: 0 -20px;
+    background-size: 40px 60px !important;
+    &:hover {
+      background-position: 0 0;
+    }
+    &:active,
+    &.PIN_1449147342050_hazclick {
+      background-position: 0 -40px;
+    }
+  }
+  &.PIN_1449147342050_pin_it_button_inline_20 {
+    position: relative !important;
+
+    display: inline-block !important;
+
+    cursor: pointer !important;
+  }
+  &.PIN_1449147342050_pin_it_button_floating_20 {
+    position: absolute !important;
+
+    cursor: pointer !important;
+  }
+  &.PIN_1449147342050_pin_it_button_en_20_red {
+    background-image: url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_en_rect_red_20_1.png) !important;
+  }
+  &.PIN_1449147342050_pin_it_button_en_20_white {
+    background-image: url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_en_rect_white_20_1.png) !important;
+  }
+  &.PIN_1449147342050_pin_it_button_en_20_gray {
+    background-image: url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_en_rect_gray_20_1.png) !important;
+  }
+  &.PIN_1449147342050_pin_it_button_ja_20_red {
+    background-image: url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_ja_rect_red_20_1.png) !important;
+  }
+  &.PIN_1449147342050_pin_it_button_ja_20_white {
+    background-image: url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_ja_rect_white_20_1.png) !important;
+  }
+  &.PIN_1449147342050_pin_it_button_ja_20_gray {
+    background-image: url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_ja_rect_gray_20_1.png) !important;
+  }
+  &.PIN_1449147342050_pin_it_above_20 span.PIN_1449147342050_pin_it_button_count {
+    font: 12px Arial, Helvetica, sans-serif !important;
+    line-height: 24px !important;
+
+    position: absolute !important;
+    bottom: 21px !important;
+    left: 0 !important;
+
+    width: 40px !important;
+    height: 29px !important;
+
+    text-indent: 0 !important;
+
+    background: transparent url(https://s-passets.pinimg.com/images/pidgets/count_north_white_rect_20_1.png) 0 0 no-repeat !important;
+    background-size: 40px 29px !important;
+  }
+  &.PIN_1449147342050_pin_it_button_20 span.PIN_1449147342050_pin_it_button_count {
+    position: absolute !important;
+
+    text-align: center !important;
+    text-indent: 0 !important;
+
+    color: #777 !important;
+  }
+  &.PIN_1449147342050_pin_it_beside_20 {
+    span.PIN_1449147342050_pin_it_button_count {
+      font: 10px Arial, Helvetica, sans-serif !important;
+      line-height: 20px !important;
+
+      position: absolute !important;
+      top: 0 !important;
+      left: 41px !important;
+
+      height: 20px !important;
+      padding: 0 3px 0 10px !important;
+
+      background-color: transparent !important;
+      background-image: url(https://s-passets.pinimg.com/images/pidgets/count_east_white_rect_20_1.png) !important;
+      background-repeat: no-repeat !important;
+      background-position: 0 0 !important;
+      background-size: 45px 20px !important;
+      i {
+        background-color: transparent !important;
+        background-image: url(https://s-passets.pinimg.com/images/pidgets/count_east_white_rect_20_1.png) !important;
+        background-repeat: no-repeat !important;
+      }
+    }
+    &.PIN_1449147342050_pin_it_button_count_full span.PIN_1449147342050_pin_it_button_count {
+      width: 25px !important;
+    }
+    span.PIN_1449147342050_pin_it_button_count i {
+      position: absolute !important;
+      top: 0 !important;
+      right: -2px !important;
+
+      width: 2px !important;
+      height: 20px !important;
+
+      background-position: 100% 0 !important;
+    }
+  }
+  &.PIN_1449147342050_pin_it_button_20.PIN_1449147342050_pin_it_above {
+    margin-top: 20px !important;
+  }
+  &.PIN_1449147342050_pin_it_above_20_pad {
+    margin-top: 30px !important;
+  }
+  &.PIN_1449147342050_pin_it_beside_20_pad {
+    margin-right: 40px !important;
+  }
+  &.PIN_1449147342050_pin_it_button_28 {
+    width: 56px !important;
+    height: 28px !important;
+    padding: 0 !important;
+
+    cursor: pointer !important;
+    vertical-align: baseline !important;
+    text-decoration: none !important;
+
+    background-repeat: none !important;
+    background-position: 0 -28px;
+    background-size: 56px 84px !important;
+    &:hover {
+      background-position: 0 0;
+    }
+    &:active,
+    &.PIN_1449147342050_hazclick {
+      background-position: 0 -56px;
+    }
+  }
+  &.PIN_1449147342050_pin_it_button_inline_28 {
+    position: relative !important;
+
+    display: inline-block !important;
+
+    cursor: pointer !important;
+  }
+  &.PIN_1449147342050_pin_it_button_floating_28 {
+    position: absolute !important;
+
+    cursor: pointer !important;
+  }
+  &.PIN_1449147342050_pin_it_above_28_pad {
+    margin-top: 38px !important;
+  }
+  &.PIN_1449147342050_pin_it_beside_28_pad {
+    margin-right: 50px !important;
+  }
+  &.PIN_1449147342050_pin_it_button_en_28_red {
+    background-image: url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_en_rect_red_28_1.png) !important;
+  }
+  &.PIN_1449147342050_pin_it_button_en_28_white {
+    background-image: url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_en_rect_white_28_1.png) !important;
+  }
+  &.PIN_1449147342050_pin_it_button_en_28_gray {
+    background-image: url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_en_rect_gray_28_1.png) !important;
+  }
+  &.PIN_1449147342050_pin_it_button_ja_28_red {
+    background-image: url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_ja_rect_red_28_1.png) !important;
+  }
+  &.PIN_1449147342050_pin_it_button_ja_28_white {
+    background-image: url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_ja_rect_white_28_1.png) !important;
+  }
+  &.PIN_1449147342050_pin_it_button_ja_28_gray {
+    background-image: url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_ja_rect_gray_28_1.png) !important;
+  }
+  &.PIN_1449147342050_pin_it_button_en_16_red_round,
+  &.PIN_1449147342050_pin_it_button_en_32_red_round {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    cursor: pointer !important;
+    vertical-align: baseline !important;
+    text-decoration: none !important;
+
+    background-repeat: none !important;
+  }
+  &.PIN_1449147342050_pin_it_button_en_16_red_round {
+    width: 16px !important;
+    height: 16px !important;
+
+    background-image: url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_en_round_red_16_1.png) !important;
+    background-size: 16px 16px !important;
+  }
+  &.PIN_1449147342050_pin_it_button_en_32_red_round {
+    width: 32px !important;
+    height: 32px !important;
+
+    background-image: url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_en_round_red_32_1.png) !important;
+    background-size: 32px 32px !important;
+  }
+  &.PIN_1449147342050_pin_it_button_inline_en_16_red_round,
+  &.PIN_1449147342050_pin_it_button_inline_en_32_red_round {
+    position: relative !important;
+
+    display: inline-block !important;
+  }
+  &.PIN_1449147342050_pin_it_button_floating_en_16_red_round,
+  &.PIN_1449147342050_pin_it_button_floating_en_32_red_round {
+    position: absolute !important;
+  }
+  &.PIN_1449147342050_pin_it_button_28 span.PIN_1449147342050_pin_it_button_count {
+    position: absolute !important;
+
+    text-align: center !important;
+    text-indent: 0 !important;
+
+    color: #777 !important;
+  }
+  &.PIN_1449147342050_pin_it_above_28 span.PIN_1449147342050_pin_it_button_count {
+    font: 15px Arial, Helvetica, sans-serif !important;
+    line-height: 28px !important;
+
+    position: absolute !important;
+    bottom: 29px !important;
+    left: 0 !important;
+
+    width: 56px !important;
+    height: 37px !important;
+
+    text-indent: 0 !important;
+
+    background: transparent url(https://s-passets.pinimg.com/images/pidgets/count_north_white_rect_28_1.png) 0 0 no-repeat !important;
+    background-size: 56px 37px !important;
+  }
+  &.PIN_1449147342050_pin_it_beside_28 {
+    span.PIN_1449147342050_pin_it_button_count {
+      font: 12px Arial, Helvetica, sans-serif !important;
+      line-height: 28px !important;
+
+      position: absolute !important;
+      top: 0 !important;
+      left: 57px !important;
+
+      height: 28px !important;
+      padding: 0 3px 0 10px !important;
+
+      background-color: transparent !important;
+      background-image: url(https://s-passets.pinimg.com/images/pidgets/count_east_white_rect_28_1.png) !important;
+      background-repeat: no-repeat !important;
+      background-position: 0 0 !important;
+      background-size: 63px 28px !important;
+      i {
+        background-color: transparent !important;
+        background-image: url(https://s-passets.pinimg.com/images/pidgets/count_east_white_rect_28_1.png) !important;
+        background-repeat: no-repeat !important;
+      }
+    }
+    &.PIN_1449147342050_pin_it_button_count_full span.PIN_1449147342050_pin_it_button_count {
+      width: 36px !important;
+    }
+    span.PIN_1449147342050_pin_it_button_count i {
+      position: absolute !important;
+      top: 0 !important;
+      right: -2px !important;
+
+      width: 2px !important;
+      height: 28px !important;
+
+      background-position: 100% 0 !important;
+    }
+  }
+  &.PIN_1449147342050_pin_it_button_28.PIN_1449147342050_pin_it_above {
+    margin-top: 28px !important;
+  }
+  &.PIN_1449147342050_follow_me_button {
+    font: bold normal normal (11px / 20px) 'Helvetica Neue', helvetica, arial, san-serif !important;
+
+    position: relative !important;
+
+    display: inline-block !important;
+
+    height: 20px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+
+    cursor: pointer !important;
+    vertical-align: baseline !important;
+    text-decoration: none !important;
+    text-indent: 19px !important;
+
+    color: #444 !important;
+    background: transparent url(https://s-passets.pinimg.com/images/pidgets/bfs1.png) 0 0 no-repeat;
+    background-size: 200px 60px !important;
+    i {
+      background: transparent url(https://s-passets.pinimg.com/images/pidgets/bfs1.png) 0 0 no-repeat;
+      background-size: 200px 60px !important;
+    }
+    &:hover {
+      background-position: 0 -20px;
+    }
+    &:active {
+      background-position: 0 -40px;
+    }
+    b {
+      position: absolute !important;
+      top: 3px !important;
+      left: 3px !important;
+
+      width: 14px !important;
+      height: 14px !important;
+
+      background-image: url(https://s-passets.pinimg.com/images/pidgets/log1.png) !important;
+      background-size: 14px 14px !important;
+    }
+    i {
+      position: absolute !important;
+      top: 0 !important;
+      right: -4px !important;
+
+      width: 4px !important;
+      height: 20px !important;
+
+      background-position: 100% 0 !important;
+    }
+    &:hover i {
+      background-position: 100% -20px !important;
+    }
+    &:active i {
+      background-position: 100% -40px !important;
+    }
+  }
+  &.PIN_1449147342050_follow_me_button_28 {
+    font: bold normal normal (13px / 28px) 'Helvetica Neue', helvetica, arial, san-serif !important;
+
+    position: relative !important;
+
+    display: inline-block !important;
+
+    height: 28px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+
+    cursor: pointer !important;
+    vertical-align: baseline !important;
+    text-decoration: none !important;
+    text-indent: 33px !important;
+
+    color: #444 !important;
+    background: transparent url(https://s-passets.pinimg.com/images/pidgets/bft1.png) 0 0 no-repeat;
+    background-size: 400px 84px !important;
+    i {
+      background: transparent url(https://s-passets.pinimg.com/images/pidgets/bft1.png) 0 0 no-repeat;
+      background-size: 400px 84px !important;
+    }
+    &:hover {
+      background-position: 0 -28px;
+    }
+    &:active {
+      background-position: 0 -56px;
+    }
+    b {
+      position: absolute !important;
+      top: 5px !important;
+      left: 10px !important;
+
+      width: 18px !important;
+      height: 18px !important;
+
+      background-image: url(https://s-passets.pinimg.com/images/pidgets/smt1.png) !important;
+      background-size: 18px 18px !important;
+    }
+    i {
+      position: absolute !important;
+      top: 0 !important;
+      right: -10px !important;
+
+      width: 10px !important;
+      height: 28px !important;
+
+      background-position: 100% 0 !important;
+    }
+    &:hover i {
+      background-position: 100% -28px !important;
+    }
+    &:active i {
+      background-position: 100% -56px !important;
+    }
+  }
+}
+
+span {
+  &.PIN_1449147342050_embed_pin {
+    font-family: 'Helvetica Neue', arial, sans-serif !important;
+
+    position: relative !important;
+
+    display: inline-block !important;
+    overflow: hidden !important;
+
+    box-sizing: content-box !important;
+    min-width: 160px !important;
+    max-width: 237px !important;
+
+    text-align: center !important;
+    vertical-align: top !important;
+
+    color: #363636 !important;
+    border-radius: 3px !important;
+    background: #fff !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .33) !important;
+
+    -webkit-font-smoothing: antialiased !important;
+    img {
+      padding: 0 !important;
+
+      border: 0 !important;
+      box-shadow: none !important;
+    }
+    a {
+      cursor: pointer !important;
+      text-decoration: none !important;
+
+      color: inherit !important;
+      &.PIN_1449147342050_embed_pin_link {
+        line-height: 0;
+
+        position: relative !important;
+        z-index: inherit !important;
+
+        display: block !important;
+
+        margin: 0 auto !important;
+        padding: 0 !important;
+      }
+    }
+    span.PIN_1449147342050_embed_pin_link_iframe {
+      position: relative !important;
+
+      display: block !important;
+      overflow: hidden !important;
+
+      height: 0 !important;
+      padding-top: 35px !important;
+      iframe {
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+
+        width: 100% !important;
+        height: 100% !important;
+      }
+    }
+    img.PIN_1449147342050_embed_pin_link_img {
+      margin: 0 !important;
+      padding: 0 !important;
+
+      border: 0 !important;
+      border-bottom: 1px solid rgba(0, 0, 0, .09) !important;
+    }
+    a.PIN_1449147342050_embed_pin_link span {
+      &.PIN_1449147342050_repin {
+        position: absolute !important;
+        z-index: inherit !important;
+        top: 10px !important;
+        left: 10px !important;
+
+        width: 53px !important;
+        height: 28px !important;
+
+        cursor: pointer !important;
+
+        background: transparent url(https://s-passets.pinimg.com/images/pidgets/repin_small_1.png) !important;
+        background-size: cover !important;
+      }
+      &.PIN_1449147342050_repin_ja {
+        position: absolute !important;
+        z-index: inherit !important;
+        top: 10px !important;
+        left: 10px !important;
+
+        width: 40px !important;
+        height: 20px !important;
+
+        cursor: pointer !important;
+
+        background: transparent url(https://s-passets.pinimg.com/images/pidgets/pinit_bg_ja_rect_red_20_1.png);
+        background-size: 40px 60px !important;
+        &:hover {
+          background-position: 0 -20px !important;
+        }
+      }
+    }
+    span.PIN_1449147342050_embed_pin_header {
+      display: block !important;
+
+      padding: 23px 0 24px !important;
+
+      text-align: right !important;
+    }
+    a.PIN_1449147342050_menu {
+      position: absolute !important;
+      top: 17px !important;
+      right: 10px !important;
+
+      width: 20px !important;
+      height: 5px !important;
+
+      background-color: transparent !important;
+      background-image: url(https://s-passets.pinimg.com/images/pidgets/menu_1.png);
+      background-size: cover !important;
+      &:hover {
+        opacity: .7;
+      }
+    }
+    span.PIN_1449147342050_menu_dropdown {
+      font-size: 14px !important;
+      font-weight: bolder !important;
+
+      position: absolute !important;
+      top: 39px !important;
+      right: 10px !important;
+
+      display: none;
+
+      max-width: 195px !important;
+      padding: 5px 5px 5px 5px !important;
+
+      text-align: left !important;
+
+      border-radius: 5px !important;
+      background-color: #fff !important;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, .33) !important;
+      &:after {
+        position: absolute !important;
+        top: -6px !important;
+        right: 1px !important;
+
+        content: '' !important;
+
+        border-right: 8px solid transparent !important;
+        border-bottom: 8px solid #fff !important;
+        border-left: 8px solid transparent !important;
+      }
+      &:before {
+        position: absolute !important;
+        top: -7px !important;
+        right: 2px !important;
+
+        content: '' !important;
+
+        border-right: 7px solid transparent !important;
+        border-bottom: 7px solid #e2e2e2 !important;
+        border-left: 7px solid transparent !important;
+      }
+      a {
+        &.PIN_1449147342050_menu_report {
+          display: block !important;
+
+          padding: 8px !important;
+
+          word-break: break-word !important;
+
+          background: transparent !important;
+        }
+        &:hover {
+          opacity: .5;
+        }
+      }
+    }
+    a.PIN_1449147342050_embed_pin_link i.PIN_1449147342050_play {
+      font-size: 9px !important;
+      font-weight: bold !important;
+      font-style: normal !important;
+      line-height: 12px !important;
+
+      position: absolute !important;
+      bottom: 12px !important;
+      left: 12px !important;
+
+      display: block !important;
+
+      width: 50px !important;
+      margin: 0 !important;
+      padding: 5px 0 !important;
+
+      white-space: pre !important;
+      text-decoration: none !important;
+
+      color: rgba(255, 255, 255, 1) !important;
+      border: 2px solid rgba(255, 255, 255, .68) !important;
+      border-radius: 13px !important;
+      background: rgba(0, 0, 0, .4) !important;
+      box-shadow: 0 0 2px rgba(0, 0, 0, .2) !important;
+      &:hover {
+        color: #fff !important;
+        background: rgba(0, 0, 0, .8) !important;
+      }
+    }
+    span {
+      &.PIN_1449147342050_embed_pin_meta {
+        line-height: 14px !important;
+
+        position: relative !important;
+
+        display: block !important;
+
+        padding: 12px 10px 8px !important;
+
+        text-align: left !important;
+
+        border-bottom: 1px solid rgba(0, 0, 0, .09) !important;
+        img.PIN_1449147342050_embed_pin_meta_icon {
+          display: inline-block !important;
+
+          width: 15px !important;
+          margin-right: 10px !important;
+
+          border-radius: 0 !important;
+        }
+        a.PIN_1449147342050_embed_pin_meta_name {
+          background: transparent !important;
+          span.PIN_1449147342050_embed_pin_meta_from {
+            font-size: 12px !important;
+            font-weight: bolder !important;
+
+            display: inline-block !important;
+            overflow: hidden !important;
+
+            max-width: 75% !important;
+
+            vertical-align: top !important;
+            white-space: nowrap !important;
+            text-overflow: ellipsis !important;
+
+            color: #b9b9b9 !important;
+          }
+        }
+      }
+      &.PIN_1449147342050_embed_pin_desc {
+        font-size: 14px !important;
+        line-height: 17px !important;
+
+        display: block !important;
+
+        padding: 8px 12px 8px 12px !important;
+
+        text-align: left !important;
+        white-space: normal !important;
+
+        border-bottom: 1px solid rgba(0, 0, 0, .09) !important;
+      }
+      &.PIN_1449147342050_embed_pin_attrib {
+        font-size: 11px !important;
+        font-weight: bold !important;
+        line-height: 18px !important;
+
+        display: block !important;
+
+        margin-top: 8px !important;
+
+        color: #a8a8a8 !important;
+        img.PIN_1449147342050_embed_pin_attrib_icon {
+          float: left !important;
+
+          width: 16px !important;
+          height: 16px !important;
+          margin: 0 5px 0 0 !important;
+          padding: 0 !important;
+
+          vertical-align: middle !important;
+        }
+        a {
+          text-decoration: none !important;
+
+          color: #a8a8a8 !important;
+        }
+      }
+      &.PIN_1449147342050_embed_pin_stats {
+        display: block !important;
+        span {
+          &.PIN_1449147342050_embed_pin_stats_repin_count,
+          &.PIN_1449147342050_embed_pin_stats_like_count {
+            font-size: 11px !important;
+            font-weight: bold !important;
+            line-height: 12px !important;
+
+            display: inline-block;
+
+            margin-top: 8px !important;
+            padding-right: 10px !important;
+            padding-left: 17px !important;
+
+            color: #a8a8a8 !important;
+          }
+        }
+      }
+      &.PIN_1449147342050_embed_pin_text {
+        font-size: 12px !important;
+        line-height: 16px !important;
+
+        position: relative !important;
+
+        display: block !important;
+
+        box-sizing: inherit !important;
+        height: 30px !important;
+        padding: 10px !important;
+
+        text-align: left !important;
+        text-decoration: none !important;
+        span.PIN_1449147342050_embed_pin_text_container_pinner {
+          font-weight: bold !important;
+        }
+        img.PIN_1449147342050_embed_pin_text_avatar {
+          position: absolute !important;
+
+          overflow: hidden !important;
+
+          width: 30px !important;
+          height: 30px !important;
+          margin: 0 8px 12px 0 !important;
+
+          vertical-align: middle !important;
+
+          opacity: 1 !important;
+          border: none !important;
+          border-radius: 15px !important;
+        }
+        span.PIN_1449147342050_embed_pin_text_container_pinner {
+          display: block !important;
+          overflow: hidden !important;
+
+          width: auto !important;
+          padding-left: 40px !important;
+
+          cursor: pointer !important;
+          white-space: nowrap !important;
+          text-overflow: ellipsis !important;
+        }
+      }
+      &.PIN_1449147342050_embed_pin_text_container_board {
+        display: block !important;
+        overflow: hidden !important;
+
+        width: auto !important;
+        padding-left: 40px !important;
+
+        cursor: pointer !important;
+        white-space: nowrap !important;
+        text-overflow: ellipsis !important;
+      }
+      &.PIN_1449147342050_embed_pin_tentpole {
+        line-height: 1px !important;
+
+        display: block !important;
+        overflow: hidden !important;
+
+        height: 1px !important;
+        margin-top: -1px !important;
+
+        text-align: left !important;
+
+        color: #fff !important;
+      }
+    }
+    &.PIN_1449147342050_medium {
+      width: auto !important;
+      min-width: 237px !important;
+      max-width: 345px !important;
+      a.PIN_1449147342050_embed_pin_link span.PIN_1449147342050_repin {
+        width: 60px !important;
+        height: 32px !important;
+      }
+    }
+    &.PIN_1449147342050_large {
+      width: auto !important;
+      min-width: 280px !important;
+      max-width: 536px !important;
+      padding: 0 32px 20px !important;
+      a.PIN_1449147342050_embed_pin_link span {
+        &.PIN_1449147342050_repin {
+          top: -50px !important;
+          left: 0 !important;
+
+          width: 67px !important;
+          height: 36px !important;
+
+          background: transparent url(https://s-passets.pinimg.com/images/pidgets/repin_medium_1.png) !important;
+          background-size: cover !important;
+        }
+        &.PIN_1449147342050_repin_ja {
+          top: -40px !important;
+          left: 0 !important;
+        }
+      }
+      img {
+        border-radius: 8px !important;
+      }
+      span.PIN_1449147342050_embed_pin_meta {
+        line-height: 16px !important;
+
+        padding: 15px 10px 15px !important;
+        a.PIN_1449147342050_embed_pin_meta_name span.PIN_1449147342050_embed_pin_meta_from {
+          font-size: 14px !important;
+        }
+      }
+      a.PIN_1449147342050_menu {
+        top: 21px !important;
+        right: 0 !important;
+      }
+      span {
+        &.PIN_1449147342050_menu_dropdown {
+          right: 0 !important;
+        }
+        &.PIN_1449147342050_embed_pin_desc {
+          font-size: 16px !important;
+          line-height: 20px !important;
+
+          padding: 10px 10px 0 !important;
+
+          border-bottom: none !important;
+        }
+        &.PIN_1449147342050_embed_pin_text {
+          font-size: 16px !important;
+          line-height: 20px !important;
+          img.PIN_1449147342050_embed_pin_text_avatar {
+            width: 40px !important;
+            height: 40px !important;
+
+            border-radius: 20px !important;
+          }
+          span.PIN_1449147342050_embed_pin_text_container_pinner {
+            padding-left: 50px !important;
+          }
+        }
+        &.PIN_1449147342050_embed_pin_text_container_board {
+          padding-left: 50px !important;
+        }
+        &.PIN_1449147342050_menu_dropdown {
+          top: 49px !important;
+        }
+      }
+    }
+  }
+  &.PIN_1449147342050_embed_grid {
+    position: relative !important;
+
+    display: inline-block !important;
+
+    margin: 0 !important;
+    padding: 10px 0 !important;
+
+    text-align: center;
+
+    border-radius: 3px !important;
+    background: #fff !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .33) !important;
+    span {
+      &.PIN_1449147342050_embed_grid_hd {
+        position: relative !important;
+
+        display: block !important;
+
+        height: 45px !important;
+        margin: 0 10px !important;
+        padding: 0 !important;
+        a {
+          position: absolute !important;
+          left: 44px !important;
+
+          overflow: hidden !important;
+
+          cursor: pointer !important;
+          text-align: left !important;
+          white-space: nowrap !important;
+          text-decoration: none !important;
+          text-overflow: ellipsis !important;
+
+          border: none !important;
+          background: transparent !important;
+          &.PIN_1449147342050_avatar {
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+
+            width: 36px !important;
+            height: 36px !important;
+            img {
+              position: relative !important;
+
+              width: 36px !important;
+              min-width: 36px !important;
+              height: 36px !important;
+              min-height: 36px !important;
+              margin: 0 !important;
+              padding: 0 !important;
+
+              border: none !important;
+              border-radius: 3px !important;
+            }
+          }
+          &:hover,
+          &:active {
+            text-decoration: none !important;
+
+            background: inherit !important;
+          }
+          &.PIN_1449147342050_embed_grid_first {
+            font-family: helvetica, sans-serif !important;
+            font-size: 14px !important;
+            font-weight: bold !important;
+            line-height: 16px !important;
+
+            top: 2px !important;
+
+            color: #333 !important;
+          }
+          &.PIN_1449147342050_embed_grid_second {
+            font-family: helvetica, sans-serif !important;
+            font-size: 12px !important;
+            line-height: 14px !important;
+
+            bottom: 11px !important;
+
+            color: #8e8e8e !important;
+          }
+          &.PIN_1449147342050_embed_grid_mid {
+            font-family: helvetica, sans-serif !important;
+            font-size: 14px !important;
+            font-weight: bold !important;
+            line-height: 16px !important;
+
+            top: 12px !important;
+
+            color: #333 !important;
+          }
+        }
+      }
+      &.PIN_1449147342050_embed_grid_bd {
+        position: relative !important;
+
+        display: block !important;
+        overflow: hidden;
+
+        margin: 0 10px !important;
+
+        border-radius: 2px !important;
+      }
+      &.PIN_1449147342050_embed_grid_scrolling_okay {
+        overflow: auto !important;
+      }
+      &.PIN_1449147342050_embed_grid_bd {
+        span.PIN_1449147342050_embed_grid_ct {
+          position: relative !important;
+
+          display: block !important;
+          overflow: hidden !important;
+        }
+        a.PIN_1449147342050_embed_grid_th {
+          position: absolute !important;
+
+          display: inline-block !important;
+          overflow: hidden !important;
+
+          cursor: pointer !important;
+          &::before {
+            position: absolute !important;
+            z-index: 2 !important;
+            top: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            left: 0 !important;
+
+            content: '' !important;
+
+            box-shadow: inset 0 0 2px #888 !important;
+          }
+          img.PIN_1449147342050_embed_grid_img {
+            position: absolute !important;
+            top: 50% !important;
+            left: 0 !important;
+
+            margin-right: 0 !important;
+            margin-bottom: 0 !important;
+            margin-left: 0 !important;
+            padding: 0 !important;
+
+            border: none !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+a.PIN_1449147342050_embed_grid_ft {
+  font-family: Helvetica !important;
+  font-size: 13px !important;
+  font-weight: bold !important;
+  line-height: 30px !important;
+
+  display: block !important;
+
+  height: 31px !important;
+  margin: 10px 10px 0 !important;
+
+  cursor: pointer !important;
+  text-align: center !important;
+  text-decoration: none !important;
+
+  color: #746d6a !important;
+  border: 1px solid #ccc !important;
+  border-radius: 2px !important;
+  background: #f4f4f4 url(https://s-passets.pinimg.com/images/pidgets/board_button_link.png) 0 0 repeat-x;
+  text-shadow: 0 1px #fff !important;
+  &:hover {
+    text-decoration: none !important;
+
+    background: #fefefe url(https://s-passets.pinimg.com/images/pidgets/board_button_hover.png) 0 0 repeat-x;
+  }
+  &:active {
+    text-decoration: none !important;
+
+    background: #e4e4e4 url(https://s-passets.pinimg.com/images/pidgets/board_button_active.png) 0 0 repeat-x;
+  }
+  span.PIN_1449147342050_embed_grid_ft_logo {
+    display: inline-block !important;
+
+    width: 66px !important;
+    height: 30px !important;
+    margin-left: 2px !important;
+
+    vertical-align: top !important;
+
+    background: transparent url(https://s-passets.pinimg.com/images/pidgets/board_button_logo.png) 50% 48% no-repeat !important;
+  }
+}
+
+.PIN_1449147342050_hidden {
+  display: none !important;
+}

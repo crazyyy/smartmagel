@@ -1906,7 +1906,7 @@ body {
         margin: 10px 0 0;
         padding: 0 0 0 25px;
 
-        background: url('../images/i_print.gif') 0 2px no-repeat;
+        background: url('../img/i_print.gif') 0 2px no-repeat;
       }
     }
     .data-table {
@@ -2080,7 +2080,7 @@ body {
 
   vertical-align: middle;
 
-  background: url('../images/bkg_rating.png') repeat-x scroll 0 0 transparent;
+  background: url('../img/bkg_rating.png') repeat-x scroll 0 0 transparent;
   .rating {
     position: absolute;
     top: 0;
@@ -2088,7 +2088,7 @@ body {
 
     height: 12px;
 
-    background: url('../images/bkg_rating.png') repeat-x scroll 0 100% transparent;
+    background: url('../img/bkg_rating.png') repeat-x scroll 0 100% transparent;
   }
 }
 
@@ -2823,7 +2823,7 @@ body .jqTransformSelectWrapper {
       width: 9px;
       height: 21px;
 
-      background: url('../images/ico-drop.png') no-repeat right 7px;
+      background: url('../img/ico-drop.png') no-repeat right 7px;
     }
   }
   ul {
@@ -2954,7 +2954,7 @@ body .jqTransformSelectWrapper {
 
       content: '';
 
-      background: url('../images/dot-1.png') no-repeat left -4px;
+      background: url('../img/dot-1.png') no-repeat left -4px;
     }
     &:first-child {
       padding-left: 0;
@@ -4164,7 +4164,7 @@ body.ie8 {
           transition: all .2s ease-out;
 
   border: none;
-  background: url('../images/qty-inc-dec.png') no-repeat left 0;
+  background: url('../img/qty-inc-dec.png') no-repeat left 0;
   background-color: #d5d5d5;
 }
 
@@ -4957,7 +4957,7 @@ body.ie8 .showflip {
 
         text-indent: -999em;
 
-        background: url('../images/slider-nav.png') no-repeat left top;
+        background: url('../img/slider-nav.png') no-repeat left top;
       }
       .next:before,
       .prev:before {
@@ -4971,7 +4971,7 @@ body.ie8 .showflip {
         content: '';
         cursor: pointer;
 
-        background: url('../images/nav-inner.png') no-repeat -75px top;
+        background: url('../img/nav-inner.png') no-repeat -75px top;
       }
       .next:hover:before,
       .prev:hover:before {
@@ -5084,10 +5084,9 @@ body.ie8 .showflip {
                   transition: all .2s ease-out;
 
           border: 1px solid #1dbfe0;
-          -webkit-border-radius: 100%;
-             -moz-border-radius: 100%;
+
                   border-radius: 100%;
-          background: url('../images/ico-pricacypolicy.png') no-repeat left top;
+          background: url('../img/ico-pricacypolicy.png') no-repeat left top;
         }
         span {
           line-height: 18px;
@@ -5202,7 +5201,7 @@ body.ie8 .showflip {
         -webkit-border-radius: 100%;
            -moz-border-radius: 100%;
                 border-radius: 100%;
-        background-image: url('../images/ico-contactus.png');
+        background-image: url('../img/ico-contactus.png');
         background-repeat: no-repeat;
         background-position: top left;
       }
@@ -5257,7 +5256,7 @@ body.ie8 .showflip {
           -webkit-border-radius: 3px;
              -moz-border-radius: 3px;
                   border-radius: 3px;
-          background: url(../images/ico-socials.png) no-repeat left top;
+          background: url(../img/ico-socials.png) no-repeat left top;
           &:hover {
             background-color: #fff !important;
             background-position: left -30px;
@@ -5468,7 +5467,7 @@ body.ie8 .showflip {
 
   cursor: pointer;
 
-  background: url('../images/separator-h.gif') no-repeat left center;
+  background: url('../img/separator-h.gif') no-repeat left center;
 }
 
 .language-switcher label,
@@ -5487,7 +5486,7 @@ body.ie8 .showflip {
 
   padding: 9px 14px 9px 32px;
 
-  background: url('../images/arrow-down.gif') no-repeat right center;
+  background: url('../img/arrow-down.gif') no-repeat right center;
 }
 
 .language-switcher .tongle:before,
@@ -5654,7 +5653,7 @@ body.ie8 {
 
   margin: 0 0 0 10px;
 
-  background: url('../images/separator-h.gif') no-repeat left center;
+  background: url('../img/separator-h.gif') no-repeat left center;
   .quick-access-title {
     line-height: 30px;
 
@@ -5666,7 +5665,7 @@ body.ie8 {
     -webkit-transition: all .2s ease-out;
             transition: all .2s ease-out;
 
-    background: url('../images/arrow-down.gif') no-repeat right center;
+    background: url('../img/arrow-down.gif') no-repeat right center;
     i {
       font-size: 14px;
 
@@ -5960,7 +5959,7 @@ body.ie8 .toolbar .toolbar-inner {
     width: 25px;
     height: 22px;
 
-    background-image: url('../images/arrow-down2.gif');
+    background-image: url('../img/arrow-down2.gif');
     background-position: 8px 9px;
   }
   .sort-by .select-new .select-inner .jqTransformSelectWrapper ul,
@@ -6046,7 +6045,7 @@ body.ie8 .toolbar .toolbar-inner {
       -webkit-transition: all .2s ease-in;
               transition: all .2s ease-in;
 
-      background: url('../images/ico-drop-updown.png') no-repeat left top;
+      background: url('../img/ico-drop-updown.png') no-repeat left top;
     }
     .set-desc:before {
       background-position: left -12px;
@@ -6489,7 +6488,7 @@ body.ie8 .toolbar .toolbar-inner {
     width: 80px;
     height: 80px;
 
-    background: url('../images/arrow-sliseshow.png') no-repeat left top;
+    background: url('../img/arrow-sliseshow.png') no-repeat left top;
   }
   .tp-rightarrow.default:before,
   .tp-leftarrow.default:before {
@@ -6505,7 +6504,7 @@ body.ie8 .toolbar .toolbar-inner {
             transition: all .1s ease-out;
 
     opacity: 0;
-    background: url('../images/arrow-sliseshow-inner.png') no-repeat left top;
+    background: url('../img/arrow-sliseshow-inner.png') no-repeat left top;
 
     filter: alpha(opacity = 0);
   }
@@ -6586,7 +6585,7 @@ body.ie8 .toolbar .toolbar-inner {
 
       text-indent: -999em;
 
-      background: url('../images/slider-nav.png') no-repeat left top;
+      background: url('../img/slider-nav.png') no-repeat left top;
     }
     .next:before,
     .prev:before {
@@ -6600,7 +6599,7 @@ body.ie8 .toolbar .toolbar-inner {
       content: '';
       cursor: pointer;
 
-      background: url('../images/nav-inner.png') no-repeat -75px top;
+      background: url('../img/nav-inner.png') no-repeat -75px top;
     }
     .next:hover:before,
     .prev:hover:before {
@@ -6710,7 +6709,7 @@ body.ie8 .toolbar .toolbar-inner {
   margin-bottom: 40px;
 
   color: #fff;
-  background: url('../images/testimonial-bg.jpg') no-repeat center top;
+  background: url('../img/testimonial-bg.jpg') no-repeat center top;
   .block-testimonial {
     position: relative;
 
@@ -6721,7 +6720,7 @@ body.ie8 .toolbar .toolbar-inner {
       text-align: center;
 
       color: #fff;
-      background: url('../images/tesimonial-title.png') no-repeat center bottom;
+      background: url('../img/tesimonial-title.png') no-repeat center bottom;
     }
     .navslider {
       .prev,
@@ -6738,7 +6737,7 @@ body.ie8 .toolbar .toolbar-inner {
         cursor: pointer;
         text-indent: -999em;
 
-        background: url('../images/arrow-sliseshow.png') no-repeat left top;
+        background: url('../img/arrow-sliseshow.png') no-repeat left top;
       }
       .prev:before,
       .next:before {
@@ -6754,7 +6753,7 @@ body.ie8 .toolbar .toolbar-inner {
                 transition: all .1s ease-out;
 
         opacity: 0;
-        background: url('../images/arrow-sliseshow-inner.png') no-repeat left top;
+        background: url('../img/arrow-sliseshow-inner.png') no-repeat left top;
 
         filter: alpha(opacity = 0);
       }
@@ -6846,7 +6845,7 @@ body.ie8 .toolbar .toolbar-inner {
 
           text-indent: -999em;
 
-          background: url('../images/slider-nav.png') no-repeat left top;
+          background: url('../img/slider-nav.png') no-repeat left top;
         }
         .next:before,
         .prev:before {
@@ -6860,7 +6859,7 @@ body.ie8 .toolbar .toolbar-inner {
           content: '';
           cursor: pointer;
 
-          background: url('../images/nav-inner.png') no-repeat -75px top;
+          background: url('../img/nav-inner.png') no-repeat -75px top;
         }
         .next:hover:before,
         .prev:hover:before {
@@ -7102,7 +7101,7 @@ body.ie8 .toolbar .toolbar-inner {
             -webkit-transition: all .15s ease;
                     transition: all .15s ease;
 
-            background: url('../images/dot-1.png') no-repeat 0 0;
+            background: url('../img/dot-1.png') no-repeat 0 0;
           }
           &:hover {
             color: #1dbfe0;
@@ -7329,7 +7328,7 @@ body.ie8 .toolbar .toolbar-inner {
     padding-left: 60px;
 
     color: #444;
-    background: url('../images/logo-footer.png') no-repeat left center;
+    background: url('../img/logo-footer.png') no-repeat left center;
     a {
       color: #1dbfe0;
     }
@@ -7353,7 +7352,7 @@ body.ie8 .toolbar .toolbar-inner {
 
         text-indent: -999em;
 
-        background: url('../images/pay-me.png') no-repeat left top;
+        background: url('../img/pay-me.png') no-repeat left top;
         &.visa {
           width: 39px;
 
@@ -7625,7 +7624,7 @@ body.ie8 #sns_sticky_left .sticky .sticky-button {
 
           text-indent: -999em;
 
-          background: url('../images/slider-nav.png') no-repeat left top;
+          background: url('../img/slider-nav.png') no-repeat left top;
         }
         .next:before,
         .prev:before {
@@ -7639,7 +7638,7 @@ body.ie8 #sns_sticky_left .sticky .sticky-button {
           content: '';
           cursor: pointer;
 
-          background: url('../images/nav-inner.png') no-repeat -75px top;
+          background: url('../img/nav-inner.png') no-repeat -75px top;
         }
         .next:hover:before,
         .prev:hover:before {
@@ -7919,7 +7918,7 @@ body.ie8 #sns_sticky_left .sticky .sticky-button {
 
     text-indent: -999em;
 
-    background: url('../images/slider-nav.png') no-repeat left top;
+    background: url('../img/slider-nav.png') no-repeat left top;
   }
   #sns_right .block.block-related .block-content .owl-controls .owl-buttons .owl-next:before,
   #sns_left .block.block-related .block-content .owl-controls .owl-buttons .owl-next:before,
@@ -7935,7 +7934,7 @@ body.ie8 #sns_sticky_left .sticky .sticky-button {
     content: '';
     cursor: pointer;
 
-    background: url('../images/nav-inner.png') no-repeat -75px top;
+    background: url('../img/nav-inner.png') no-repeat -75px top;
   }
   #sns_right .block.block-related .block-content .owl-controls .owl-buttons .owl-next:hover:before,
   #sns_left .block.block-related .block-content .owl-controls .owl-buttons .owl-next:hover:before,
@@ -8727,7 +8726,7 @@ body.ie8 #sns_content {
     -webkit-border-radius: 4px;
        -moz-border-radius: 4px;
             border-radius: 4px;
-    background: #f3f3f3 url('../images/slider-handle.png') no-repeat 8px 9px;
+    background: #f3f3f3 url('../img/slider-handle.png') no-repeat 8px 9px;
     -webkit-box-shadow: 0 3px #ddd;
             box-shadow: 0 3px #ddd;
   }
@@ -9898,7 +9897,7 @@ body.ie8 .products-list .item .product-shop .actions-addtocart ul.add-to-links a
 
       text-indent: -999em;
 
-      background: url('../images/ico-product.png') no-repeat left top;
+      background: url('../img/ico-product.png') no-repeat left top;
       strong {
         font-weight: 600;
       }
@@ -10087,7 +10086,7 @@ body.ie8 .sns-product-detail .product-shop .add-to-links li a {
 
         text-indent: -999em;
 
-        background: url('../images/slider-nav.png') no-repeat left top;
+        background: url('../img/slider-nav.png') no-repeat left top;
       }
       .next:before,
       .prev:before {
@@ -10101,7 +10100,7 @@ body.ie8 .sns-product-detail .product-shop .add-to-links li a {
         content: '';
         cursor: pointer;
 
-        background: url('../images/nav-inner.png') no-repeat -75px top;
+        background: url('../img/nav-inner.png') no-repeat -75px top;
       }
       .next:hover:before,
       .prev:hover:before {
@@ -11415,7 +11414,7 @@ div.grouped_select {
     margin: 0;
     padding-left: 30px;
 
-    background: url(../images/right-arrow.png) left center no-repeat;
+    background: url(../img/right-arrow.png) left center no-repeat;
   }
 }
 
@@ -11432,7 +11431,7 @@ div.grouped_select {
 
     cursor: pointer;
 
-    background: url(../images/facebook-slider.png) no-repeat center center;
+    background: url(../img/facebook-slider.png) no-repeat center center;
   }
 }
 
@@ -11460,7 +11459,7 @@ div.grouped_select {
 
     cursor: pointer;
 
-    background: url(../images/pinterest-slider.png) no-repeat center center;
+    background: url(../img/pinterest-slider.png) no-repeat center center;
   }
 }
 
@@ -11484,7 +11483,7 @@ div.grouped_select {
 
     cursor: pointer;
 
-    background: url(../images/instagram-slider.png) no-repeat center center;
+    background: url(../img/instagram-slider.png) no-repeat center center;
   }
   a {
     display: block;
@@ -11520,7 +11519,7 @@ div.grouped_select {
     height: 88px;
     margin: 0 25px;
 
-    background: url(../images/or_facebook.png) no-repeat;
+    background: url(../img/or_facebook.png) no-repeat;
   }
   div.login_facebook {
     position: relative;
