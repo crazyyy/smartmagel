@@ -1,0 +1,81 @@
+.mainnav {
+  li {
+    position: relative;
+    position: static;
+
+    display: inline-block;
+
+    height: 90px;
+
+    border: none;
+    a {
+      font-size: 100%;
+      font-weight: bold;
+      line-height: 60px;
+
+      position: relative;
+      position: relative;
+
+      display: block;
+
+      height: 60px;
+      margin: 15px 0;
+      padding: 0 12px;
+
+      transition: all .2s ease-out;
+      text-transform: uppercase;
+
+      color: #444;
+      &:before {
+        position: absolute;
+        bottom: -15px;
+        left: 0;
+
+        width: 100%;
+        height: 0;
+
+        content: '';
+        transition: all .2s ease-out;
+
+        opacity: 0;
+        background: #1dbfe0;
+      }
+      &:after {
+        position: absolute;
+        bottom: -20%;
+        left: 50%;
+
+        display: block;
+        visibility: hidden;
+
+        margin-left: -10px;
+
+        content: '';
+        transition: all .3s ease;
+
+        opacity: 0;
+      }
+    }
+    &.active,
+    &:hover {
+      a {
+        color: #1dbfe0;
+        &:before {
+          height: 5px;
+
+          opacity: 100;
+        }
+      }
+    }
+  }
+}
+#logo {
+  overflow: hidden;
+  /* max-height: 70px; */
+  img {
+    width: 90%;
+  }
+}
+#interaktingslider {
+  margin-bottom: 30px;
+}

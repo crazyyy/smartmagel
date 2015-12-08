@@ -34,6 +34,9 @@ function wpeStyles()  {
 
   wp_register_style('wpeasy-style', get_template_directory_uri() . '/css/main.css', array(), '1.0', 'all');
   wp_enqueue_style('wpeasy-style'); // Enqueue it!
+
+  wp_register_style('wpeasy-style-dev', get_template_directory_uri() . '/css/developer.css', array(), '1.0', 'all');
+  wp_enqueue_style('wpeasy-style-dev'); // Enqueue it!
 }
 function wpeHeaderScripts() {
   if (!is_admin()) {
@@ -107,7 +110,7 @@ function wpeHeadNav()
     'after'           => '',
     'link_before'     => '',
     'link_after'      => '',
-    'items_wrap'      => '<ul class="headnav">%3$s</ul>',
+    'items_wrap'      => '<ul class="mainnav">%3$s</ul>',
     'depth'           => 0,
     'walker'          => ''
     )
@@ -433,7 +436,7 @@ function easy_breadcrumbs() {
   $show_on_home = 0; // 1 - показывать "хлебные крошки" на главной странице, 0 - не показывать
   $show_home_link = 1; // 1 - показывать ссылку "Главная", 0 - не показывать
   $show_title = 1; // 1 - показывать подсказку (title) для ссылок, 0 - не показывать
-  $delimiter = ' &raquo; '; // разделить между "крошками"
+  $delimiter = ' &#8226; '; // разделить между "крошками"
   $before = '<span class="current">'; // тег перед текущей "крошкой"
   $after = '</span>'; // тег после текущей "крошки"
   /* === КОНЕЦ ОПЦИЙ === */
