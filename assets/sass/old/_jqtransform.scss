@@ -1,0 +1,468 @@
+form.jqtransformdone {
+  label {
+    display: block;
+
+    margin-top: 4px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+  }
+  div.rowElem {
+    clear: both;
+
+    padding: 4px 0;
+  }
+}
+
+/* -------------
+ * Buttons
+ * ------------- */
+
+button.jqTransformButton {
+  font-family: Arial;
+
+  overflow: visible;
+
+  margin: 0;
+  padding: 0;
+
+  cursor: pointer;
+
+  border: none;
+  background-color: transparent;
+}
+
+*:first-child + html button.jqTransformButton[type] {
+  width: 1;
+}
+
+/* IE7 */
+
+button {
+  &.jqTransformButton span {
+    display: block;
+    float: left;
+
+    height: 33px;
+    /* sliding doors padding */
+    margin: 0;
+    padding: 0 4px 0 0;
+
+    background: transparent url(../img/btn_right.gif) no-repeat right top;
+    span {
+      font-size: 12px;
+      font-weight: normal;
+      line-height: 13px;
+
+      display: block;
+
+      height: 33px;
+      padding: 8px 4px 0 8px;
+
+      text-decoration: none;
+
+      color: #333;
+      background: transparent url(../img/btn_left.gif) no-repeat top left;
+    }
+  }
+  &.jqTransformButton_hover span {
+    background-position: right -33px;
+    span {
+      background-position: left -33px;
+    }
+  }
+  &.jqTransformButton_click span {
+    background-position: right -66px;
+    span {
+      background-position: left -66px;
+    }
+  }
+}
+
+/*hover*/
+
+/*clicked*/
+
+/* IE 6 */
+
+* {
+  html button.jqTransformButton {
+    height: 33px;
+  }
+  button.jqTransformButton span span {
+    height: 25px;
+  }
+  + {
+    html button.jqTransformButton {
+      height: 33px;
+    }
+    button.jqTransformButton span span {
+      height: 25px;
+    }
+  }
+}
+
+/* IE 7 */
+
+/* -------------
+ * Inputs
+ * ------------- */
+
+.jqTransformInputWrapper {
+  float: left;
+
+  height: 31px;
+  padding: 0;
+
+  background: transparent url(../img/input_text_left.gif) no-repeat left top;
+}
+
+.jqTransformInputInner {
+  margin: 0;
+  padding: 0;
+
+  background: transparent url(../img/input_text_right.gif) no-repeat top right;
+  div {
+    height: 31px;
+    margin: 0 0 0 8px;
+    input {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      line-height: 18px;
+
+      height: 31px;
+      margin: 0;
+      padding: 8px 0 0 0;
+
+      vertical-align: middle;
+
+      color: #404040;
+      border: none;
+      background: transparent;
+    }
+  }
+}
+
+/*  IE6 */
+
+* {
+  html .jqTransformInputInner div input {
+    height: 24px;
+    margin: 0 0 0 -8px;
+    padding: 6px 0 0 0;
+  }
+  + html .jqTransformInputInner div input {
+    height: 24px;
+    margin-left: -10px;
+    padding: 6px 0 0 0;
+  }
+}
+
+/* Ie7 */
+
+/*hover*/
+
+.jqTransformInputWrapper_hover {
+  background-position: left -31px;
+  div.jqTransformInputInner {
+    background-position: right -31px;
+  }
+}
+
+/*focus*/
+
+.jqTransformInputWrapper_focus {
+  background-position: left -62px;
+  div.jqTransformInputInner {
+    background-position: right -62px;
+  }
+}
+
+.jqTransformSafari .jqTransformInputInner div {
+  position: relative;
+
+  overflow: hidden;
+
+  margin: 0 8px;
+  input {
+    position: absolute;
+    top: -10px;
+    left: -2px;
+
+    height: 42px;
+    padding-left: 4px;
+
+    background-color: none;
+  }
+}
+
+/* -------------
+ * Textarea
+ * ------------- */
+
+table {
+  &.jqTransformTextarea {
+    td {
+      font-size: 1px;
+      line-height: 1px;
+
+      width: 5px;
+      height: 5px;
+      margin: 0;
+      padding: 0;
+      &#jqTransformTextarea-mm textarea {
+        font-size: 12px;
+        line-height: 16px;
+      }
+    }
+    tr {
+      /*border: 1px solid red;*/
+    }
+    textarea {
+      margin: 0;
+      padding: 0;
+
+      border: 0;
+      background: none;
+    }
+    td {
+      &#jqTransformTextarea-tl {
+        background: url(../img/textarea_tl.gif) no-repeat top left;
+      }
+      &#jqTransformTextarea-tm {
+        background: url(../img/textarea_tm.gif) repeat-x top left;
+      }
+      &#jqTransformTextarea-tr {
+        background: url(../img/textarea_tr.gif) no-repeat top left;
+      }
+      &#jqTransformTextarea-ml {
+        background: url(../img/textarea_ml.gif) repeat-y top left;
+      }
+      &#jqTransformTextarea-mm {
+        background: url(../img/textarea-mm.gif) repeat;
+      }
+      &#jqTransformTextarea-mr {
+        background: url(../img/textarea_mr.gif) repeat-y top left;
+      }
+      &#jqTransformTextarea-bl {
+        background: url(../img/textarea_bl.gif) no-repeat top left;
+      }
+      &#jqTransformTextarea-bm {
+        background: url(../img/textarea_bm.gif) repeat-x top left;
+      }
+      &#jqTransformTextarea-br {
+        background: url(../img/textarea_br.gif) no-repeat top left;
+      }
+    }
+  }
+  &.jqTransformTextarea-hover td {
+    &#jqTransformTextarea-tl,
+    &#jqTransformTextarea-tm,
+    &#jqTransformTextarea-tr {
+      background-position: 0 -5px;
+    }
+    &#jqTransformTextarea-ml {
+      background-position: -5px 0;
+    }
+    &#jqTransformTextarea-mm {
+      background-image: url(../img/textarea-mm-hover.gif);
+    }
+    &#jqTransformTextarea-mr {
+      background-position: -5px 0;
+    }
+    &#jqTransformTextarea-bl,
+    &#jqTransformTextarea-bm,
+    &#jqTransformTextarea-br {
+      background-position: 0 -5px;
+    }
+  }
+  &.jqTransformTextarea-focus td {
+    &#jqTransformTextarea-tl,
+    &#jqTransformTextarea-tm,
+    &#jqTransformTextarea-tr {
+      background-position: 0 -10px;
+    }
+    &#jqTransformTextarea-ml {
+      background-position: -10px 0;
+    }
+    &#jqTransformTextarea-mm {
+      background-image: url(../img/textarea-mm-focus.gif);
+    }
+    &#jqTransformTextarea-mr {
+      background-position: -10px 0;
+    }
+    &#jqTransformTextarea-bl,
+    &#jqTransformTextarea-bm,
+    &#jqTransformTextarea-br {
+      background-position: 0 -10px;
+    }
+  }
+  &.jqTransformTextarea .jqTransformSafariTextarea {
+    div {
+      position: relative;
+
+      overflow: hidden;
+
+      border: 0 solid red;
+    }
+    textarea {
+      position: absolute;
+      top: -10px;
+      left: -10px;
+
+      padding: 10px 10px 10px 10px;
+
+      resize: none;
+
+      background: none;
+    }
+  }
+}
+
+/*hover*/
+
+/*focus*/
+
+/* -------------
+ * Radios
+ * ------------- */
+
+.jqTransformRadioWrapper {
+  display: block;
+  float: left;
+
+  margin: 0 4px;
+  margin-top: 5px;
+}
+
+.jqTransformRadio {
+  display: block;
+
+  width: 18px;
+  height: 19px;
+
+  vertical-align: middle;
+
+  background: transparent url(../img/radio.gif) no-repeat center top;
+  /*display: -moz-inline-block;*/
+}
+
+/* -------------
+ * Checkboxes
+ * ------------- */
+
+span.jqTransformCheckboxWrapper {
+  display: block;
+  float: left;
+
+  margin-top: 5px;
+}
+
+a {
+  &.jqTransformCheckbox {
+    display: block;
+
+    width: 18px;
+    height: 19px;
+
+    vertical-align: middle;
+
+    background: transparent url(../img/checkbox.gif) no-repeat center top;
+    /*display: -moz-inline-block;*/
+  }
+  &.jqTransformChecked {
+    background-position: center bottom;
+  }
+}
+
+/* -------------
+ * Checked - Used for both Radio and Checkbox
+ * ------------- */
+
+/* -------------
+ * Selects
+ * ------------- */
+
+.jqTransformSelectWrapper {
+  position: relative;
+
+  width: 45px;
+  height: 31px;
+
+  background: url(../img/select_left.gif) no-repeat top left;
+  div span {
+    font-size: 12px;
+    line-height: 15px;
+
+    position: absolute;
+
+    float: none;
+    overflow: hidden;
+
+    height: 31px;
+    padding: 8px 0 0 7px;
+
+    cursor: pointer;
+    white-space: nowrap;
+    /*border: 1px solid #CCCCCC;*/
+    /*  border-right: none;*/
+  }
+  a.jqTransformSelectOpen {
+    position: absolute;
+    right: 0;
+
+    display: block;
+
+    width: 31px;
+    height: 31px;
+
+    background: url(../img/select_right.gif) no-repeat center center;
+  }
+  ul {
+    position: absolute;
+    z-index: 10;
+    top: 30px;
+    left: 0;
+
+    display: none;
+    overflow: auto;
+    overflow-y: auto;
+
+    width: 43px;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    border: solid 1px #ccc;
+    background-color: #fff;
+    a {
+      font-size: 12px;
+
+      display: block;
+
+      padding: 5px;
+
+      text-decoration: none;
+
+      color: #333;
+      background-color: #fff;
+      &.selected {
+        color: #333;
+        background: #ededed;
+      }
+      &:hover,
+      &.selected:hover {
+        color: #fff;
+        background: #3582c4;
+      }
+    }
+  }
+}
+
+/* -------------
+ * Hidden - used to hide the original form elements
+ * ------------- */
+
+.jqTransformHidden {
+  display: none;
+}
