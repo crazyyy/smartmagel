@@ -1,1 +1,1 @@
-$rapidsearchBaseUrl = "http://www.cottonballlights.pl/";
+$rapidsearchBaseUrl="http://www.cottonballlights.pl/";

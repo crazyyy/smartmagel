@@ -1,0 +1,301 @@
+/**
+* Interakting Slider
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Open Software License (OSL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/osl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@magentocommerce.com and you will be sent a copy immediately.
+*
+* @category   BusinessDecision
+* @package    BusinessDecision_Interaktingslider
+* @author     Business & Decision Picardie - contactmagento@interakting.com
+* @copyright  Copyright (c) 2009 Business & Decision (http://www.businessdecision.com)
+* @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+*/
+
+#interaktingslider {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 30px;
+
+  #frame {
+    text-align: left;
+    width: 100%;
+    height: auto;
+
+    div {
+      /*position:absolute;*/
+
+      div {}
+    }
+  }
+
+  #middle-center {
+    position: relative;
+    height: 100%;
+  }
+
+  .slide {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    height: auto;
+
+    /* padding:5px; */
+    margin: 0px;
+    background: #f8f7f5;
+    color: #2f2f2f;
+    font: 12px/1.55em arial, helvetica, sans-serif;
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    table {
+      margin: auto;
+      padding: auto;
+    }
+
+    h1 {
+      color: #e65505;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.slide {
+  h2, h3, h4 {
+    color: #e65505;
+    text-transform: uppercase;
+  }
+}
+
+#interaktingslider {
+  .slide {
+    h1 {
+      font-size: 2em;
+      line-height: 1.17;
+    }
+
+    h2 {
+      font-size: 1.5em;
+    }
+
+    h3 {
+      font-size: 1.35em;
+    }
+
+    h4, h5 {
+      font-size: 1.05em;
+    }
+
+    h6 {
+      font-size: .95em;
+    }
+
+    a {
+      color: #1e7ec8;
+      text-decoration: underline;
+      position: relative;
+      z-index: 8;
+
+      &:hover {
+        color: #1e7ec8;
+        text-decoration: underline;
+      }
+
+      img {
+        border: 0;
+      }
+    }
+  }
+
+  #slide-content {
+    text-align: left;
+
+      /*
+    margin-top:1px;
+      margin-left:1px;
+    */
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  #slide-commands {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+  }
+
+  &:hover #slide-commands {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
+
+    /*-webkit-transition: opacity 0.2s ease-out; -moz-transition: opacity 0.2s ease-out; -o-transition: opacity 0.2s ease-out; -ms-transition: opacity 0.2s ease-out;-webkit-transform: translateZ(5px);*/
+  }
+
+  #slide-commands a {}
+
+  #prev {
+    left: 20px;
+  }
+
+  #next {
+    right: 20px;
+  }
+
+  #prev, #next {
+    background: url("../img/arrow-sliseshow.png") no-repeat left top;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    font-size: 0px;
+    top: 40%;
+    z-index: 9;
+  }
+
+  #prev:before, #next:before {
+    height: 44px;
+    width: 20px;
+    background: url("../img/arrow-sliseshow-inner.png") no-repeat left top;
+    position: absolute;
+    content: "";
+    left: 21px;
+    top: 20px;
+    opacity: 0;
+    filter: alpha(opacity = 0);
+    -webkit-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+  }
+
+  #prev:hover:before {
+    opacity: 100;
+    filter: alpha(opacity = 10000);
+  }
+
+  #next {
+    &:hover:before {
+      opacity: 100;
+      filter: alpha(opacity = 10000);
+    }
+
+    &:before {
+      background-position: -20px top;
+      left: auto;
+      right: 16px;
+    }
+  }
+
+  #slide-commands a.bullet {
+    height: 16px;
+    width: 16px;
+    background: #FFF;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    margin: 0 3px;
+    position: relative;
+    text-align: center;
+    font-size: 0px;
+    display: inline-block;
+
+    &:before {
+      width: 10px;
+      height: 10px;
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+      border-radius: 100%;
+      background: #777777;
+      position: absolute;
+      left: 3px;
+      top: 3px;
+      -webkit-transition: all 0.2s ease-out;
+      transition: all 0.2s ease-out;
+      content: "";
+    }
+
+    &:hover:before, &.active:before {
+      background: #1dbfe0;
+    }
+  }
+
+  .navi_slider {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 20px;
+    z-index: 9;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #interaktingslider {
+    #prev, #next {
+      width: 40px;
+      height: 40px;
+    }
+
+    #prev {
+      left: 10px;
+    }
+
+    #next {
+      right: 10px;
+    }
+
+    #prev:before {
+      left: 10px;
+      top: 8px;
+      width: 20px;
+      height: 20px;
+    }
+
+    #next:before {
+      right: 5px;
+      top: 8px;
+      width: 20px;
+      height: 20px;
+    }
+
+    #prev, #next, #prev:before, #next:before {
+      background-size: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 380px) {
+  #interaktingslider {
+    #prev, #next {
+      width: 20px;
+      height: 20px;
+    }
+
+    #prev:before {
+      left: 0px;
+      top: 0px;
+      width: 10px;
+      height: 10px;
+    }
+
+    #next:before {
+      right: 0px;
+      top: 0px;
+      width: 10px;
+      height: 10px;
+    }
+
+    #prev, #next, #prev:before, #next:before {
+      background-size: 100%;
+    }
+  }
+}

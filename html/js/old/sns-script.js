@@ -1,7 +1,1 @@
-jQuery(document).ready(function($){
-	if($('#sns_menu') && KEEP_MENU == 1){
-		$('#sns_menu').stick_in_parent({
-			sticky_class: 'keep-menu'
-		});
-	}
-});
+jQuery(document).ready(function(n){n("#sns_menu")&&1==KEEP_MENU&&n("#sns_menu").stick_in_parent({sticky_class:"keep-menu"})});
