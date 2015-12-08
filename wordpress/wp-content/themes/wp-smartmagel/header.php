@@ -21,9 +21,9 @@
 
 
 
-  <script type="text/javascript" async="" src="<?php echo get_template_directory_uri(); ?>/js/old/pinit_main.js"></script>
+<!--   <script type="text/javascript" async="" src="<?php echo get_template_directory_uri(); ?>/js/old/pinit_main.js"></script> -->
 
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/qon.js" async="async"></script>
+<!--   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/qon.js" async="async"></script> -->
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/prototype.js"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/ccard.js"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/validation.js"></script>
@@ -44,7 +44,7 @@
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.easing.js"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
 
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/baseurl.js"></script>
+<!--   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/baseurl.js"></script> -->
 
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/owl.carousel.min.js"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.jqtransform.js"></script>
@@ -53,10 +53,10 @@
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.fancybox-media.js"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.fancybox-thumbs.js"></script>
 
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/rapidsearch.js"></script>
+<!--   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/rapidsearch.js"></script> -->
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/jquery.themepunch.plugins.min.js"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/jquery.themepunch.revolution.min.js"></script>
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/twitterfetcher-min.js"></script>
+<!--   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/twitterfetcher-min.js"></script> -->
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/jquery.sticky-kit.min.js"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/sns-extend.js"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/sns-script.js"></script>
@@ -68,25 +68,25 @@
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/respond.js"></script>
   <![endif]-->
 
-  <script type="text/javascript">
-    //<![CDATA[
-    Mage.Cookies.path = '/';
-    Mage.Cookies.domain = '.www.cottonballlights.pl';
-    //]]>
-  </script>
-
-  <script type="text/javascript">
-    //<![CDATA[
-    if (typeof SNS_QV == 'undefined') SNS_QV = {};
-    SNS_QV.SETTING = {
-      POP_WIDTH: 0,
-      POP_HEIGHT: 0,
-      BASE_URL: 'http://www.cottonballlights.pl/',
-      SELECTOR: '',
-      TEXT: 'Szybki podgląd'
-    };
-    //]]
-  </script>
+<!--   <script type="text/javascript">
+  //<![CDATA[
+  Mage.Cookies.path = '/';
+  Mage.Cookies.domain = '.www.cottonballlights.pl';
+  //]]>
+</script>
+ -->
+<!--   <script type="text/javascript">
+  //<![CDATA[
+  if (typeof SNS_QV == 'undefined') SNS_QV = {};
+  SNS_QV.SETTING = {
+    POP_WIDTH: 0,
+    POP_HEIGHT: 0,
+    BASE_URL: 'http://www.cottonballlights.pl/',
+    SELECTOR: '',
+    TEXT: 'Szybki podgląd'
+  };
+  //]]
+</script> -->
 
   <script type="text/javascript">
     //<![CDATA[
@@ -109,7 +109,7 @@
     //]]>
   </script>
 
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/hz/558407ac098c6905.js"></script>
+<!--   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/hz/558407ac098c6905.js"></script> -->
 
 </head>
 
