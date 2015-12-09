@@ -5,8 +5,7 @@
     <div class="container">
       <div class="row">
         <div id="sns_main" class="col-md-12 col-main">
-<?php woocommerce_content(); ?>
-
+          <?php woocommerce_content(); ?>
         </div>
       </div>
     </div>

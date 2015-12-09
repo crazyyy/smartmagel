@@ -171,13 +171,14 @@
                     <div class="cart-status">
                       <span class="label">
                         Корзина </span>
-                      <span class="amount">0</span>
+                      <span class="amount"><?php echo sprintf (_n( '%d', '%d', WC()->cart->cart_contents_count ), WC()->cart->cart_contents_count ); ?></span>
                     </div>
                   </div>
                 </div>
                 <script type="text/javascript">
                   //<![CDATA[
                   if (!IS_HANDHELD) {
+
 
                   } else {
                     jQuery('.mini-cart').addClass('handheld');
