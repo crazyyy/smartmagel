@@ -29,15 +29,15 @@
             </ul>
           </div>
           <div class="block col-md-3 col-sm-4 col-xs-12">
-            <h3 class="block-title">OBSŁUGA KLIENTA</h3>
+            <h3 class="block-title">Помощь</h3>
             <ul>
               <li id="" style="" class="level0 nav--reklamacje  ">
-                <a href="http://www.cottonballlights.pl/reklamacje" class="a-level0">
-                  <span>Reklamacje</span>
+                <a href="#" class="a-level0">
+                  <span>Жалобы</span>
                 </a>
               </li>
               <li id="" style="" class="level0 nav--contact- last  ">
-                <a href="http://www.cottonballlights.pl/contact/" class="a-level0">
+                <a href="<?php bloginfo('url'); ?>/kontakty.htm" class="a-level0">
                   <span>Kontakt</span>
                 </a>
               </li>
@@ -45,28 +45,28 @@
             </ul>
           </div>
           <div class="block col-md-3 col-sm-4 col-xs-12">
-            <h3 class="block-title">MOJE KONTO</h3>
+            <h3 class="block-title">Ваш кабинет</h3>
             <ul>
               <li id="" style="" class="level0 nav--customer-account- first  ">
-                <a href="http://www.cottonballlights.pl/customer/account/" class="a-level0">
-                  <span>Moje konto</span>
+                <a href="#" class="a-level0">
+                  <span>Профиль</span>
                 </a>
               </li>
               <li id="" style="" class="level0 nav--checkout-cart-  ">
-                <a href="http://www.cottonballlights.pl/checkout/cart/" class="a-level0">
-                  <span>Mój koszyk</span>
+                <a href="#" class="a-level0">
+                  <span>Корзина</span>
                 </a>
               </li>
               <li id="" style="" class="level0 nav--checkout- last  ">
-                <a href="http://www.cottonballlights.pl/checkout/" class="a-level0">
-                  <span>Zamówienie</span>
+                <a href="#" class="a-level0">
+                  <span>Заказы</span>
                 </a>
               </li>
 
             </ul>
           </div>
           <div class="block col-md-3 col-sm-12 col-xs-12">
-            <h3 class="block-title">Kontakt</h3>
+            <h3 class="block-title">Контакты</h3>
             <div class="block-content">
               <p>
                 <em class="fa fa-home"></em>Biuro handlowe
@@ -123,8 +123,7 @@
             <!--<div class="footer_menu clearfix">
                   </div>-->
             <div class="sns-copyright">
-              Copyright 2015 - Cotton Ball Lights
-              <p>Wdrożenie i obsługa <a href="http://www.smartmage.pl/" data-toggle="tooltip" data-original-title="Wejdź SmartMage.pl!" title="Wejdź SmartMage.pl!" target="_blank">SmartMage.pl</a></p>
+              &copy; <?php echo date("Y"); ?> Собственность <?php bloginfo('name'); ?>.
             </div>
           </div>
         </div>
