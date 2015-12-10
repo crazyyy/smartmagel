@@ -108,13 +108,8 @@
     var KEEP_MENU = 1;
     //]]>
   </script>
-
-<!--   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/hz/558407ac098c6905.js"></script> -->
-
 </head>
-
 <body <?php body_class(); ?>>
-<!-- <body id="bd" class=" cms-index-index cms-ostore-home2 no-breadcrumbs safari cottonballlights igrid- eimg-preserve-3d"> -->
   <section id="sns_wrapper">
 
     <!-- BEGIN: Header -->
