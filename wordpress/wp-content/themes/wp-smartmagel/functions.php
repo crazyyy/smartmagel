@@ -174,26 +174,34 @@ function register_html5_menu() {
 if (function_exists('register_sidebar')) {
   //  Define Sidebar Widget Area 1
   register_sidebar(array(
-    'name' => __('Блок виджетов #1', 'wpeasy'),
-    'description' => __('Description for this widget-area...', 'wpeasy'),
+    'name' => __('Блок виджетов магазина', 'wpeasy'),
+    'description' => __('Показывается на страницах с товаром', 'wpeasy'),
     'id' => 'widgetarea1',
-    'before_widget' => '<div id="%1$s" class="widget %2$s">',
-    'after_widget' => '</div>',
-    'before_title' => '<h6>',
-    'after_title' => '</h6>'
+    'before_widget' => '<div id="%1$s" class="block block-list %2$s">',
+    'after_widget' => '  </div><!-- block-content -->
+</div><!-- block -->',
+    'before_title' => '  <div class="block-title">
+    <span>',
+    'after_title' => '</span>
+  </div><!-- block-title -->
+
+  <div class="block-content">'
   ));
   //  Define Sidebar Widget Area 2. If your want to display more widget - uncoment this
-  /*
   register_sidebar(array(
-    'name' => __('Блок виджетов #2', 'wpeasy'),
-    'description' => __('Description for this widget-area...', 'wpeasy'),
+    'name' => __('Блок виджетов контента', 'wpeasy'),
+    'description' => __('этот блок доступен только на записях и на рубриках...', 'wpeasy'),
     'id' => 'widgetarea2',
-    'before_widget' => '<div id="%1$s" class="widget %2$s">',
-    'after_widget' => '</div>',
-    'before_title' => '<h6>',
-    'after_title' => '</h6>'
+    'before_widget' => '<div id="%1$s" class="block block-list %2$s">',
+    'after_widget' => '  </div><!-- block-content -->
+</div><!-- block -->',
+    'before_title' => '  <div class="block-title">
+    <span>',
+    'after_title' => '</span>
+  </div><!-- block-title -->
+
+  <div class="block-content">'
   ));
-  */
 }
 
 //  Custom Excerpts
@@ -426,7 +434,7 @@ function single_result() {
 function easy_breadcrumbs() {
   /* === ОПЦИИ === */
   $text['home'] = 'Главная'; // текст ссылки "Главная"
-  $text['category'] = 'Архив рубрики "%s"'; // текст для страницы рубрики
+  $text['category'] = '%s'; // текст для страницы рубрики
   $text['search'] = 'Результаты поиска по запросу "%s"'; // текст для страницы с результатами поиска
   $text['tag'] = 'Записи с тегом "%s"'; // текст для страницы тега
   $text['author'] = 'Статьи автора %s'; // текст для страницы автора
@@ -642,5 +650,32 @@ function top_level_cats_remove_cat_base($link) {
 
   return preg_replace('|' . $category_base . '|', '', $link, 1);
 }
+//
+// woocommerce
+//
+add_action( 'after_setup_theme', 'woocommerce_support' );
+function woocommerce_support() {
+    add_theme_support( 'woocommerce' );
+}
+
+remove_action( 'woocommerce_before_main_content', 'woocommerce_output_content_wrapper', 10);
+remove_action( 'woocommerce_after_main_content', 'woocommerce_output_content_wrapper_end', 10);
+
+add_action('woocommerce_before_main_content', 'my_theme_wrapper_start', 10);
+add_action('woocommerce_after_main_content', 'my_theme_wrapper_end', 10);
+
+function my_theme_wrapper_start() {
+  echo '        <div id="sns_main" class="col-md-9 col-main">
+          <div id="sns_mainmidle" class="clearfix">';
+}
+
+function my_theme_wrapper_end() {
+  echo '          </div><!-- sns_mainmidle -->
+        </div><!-- sns_main -->
+
+';
+}
+
+
 
 ?>

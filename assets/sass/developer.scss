@@ -90,3 +90,37 @@
     padding-top: 12px;
   }
 }
+.content-cat-grid {
+  .item-img-info {
+    overflow: hidden;
+
+    height: 275px;
+  }
+  .item-title {
+    font-size: 200% !important;
+  }
+  .item-content {
+    text-align: justify;
+  }
+}
+.pagination {
+  width: 100%;
+
+  text-align: center;
+
+  @extend .clearfix;
+  span,
+  a {
+    display: inline-block;
+    font-size: 140%;
+    margin: 0 5px;
+  }
+  a {
+    &.next {
+      float: right;
+    }
+    &.prev {
+      float: left;
+    }
+  }
+}

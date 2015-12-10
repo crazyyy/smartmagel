@@ -1,40 +1,28 @@
 <?php get_header(); ?>
   <?php get_template_part('include-breadcrumbs'); ?>
-  <!-- BEGIN: Main Content -->
-  <div id="sns_content" class="wrap layout-m">
+
+  <div id="sns_content" class="wrap layout-ml">
     <div class="container">
       <div class="row">
-        <div id="sns_main" class="col-md-12 col-main">
-          <?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
+        <?php get_sidebar('content'); ?>
+
+        <div id="sns_main" class="col-md-9 col-main">
           <div id="sns_mainmidle" class="clearfix">
-            <!-- primary content -->
+
             <div class="page-title">
               <h1><?php the_title(); ?></h1>
             </div>
-            <div class="std">
+
+            <div class="category-description std">
               <?php the_content(); ?>
-            </div>
-            <!-- // primary content -->
-          </div>
+            </div><!-- category-description -->
 
-          <?php endwhile; else: // If 404 page error ?>
+          </div><!-- sns_mainmidle -->
+        </div><!-- sns_main -->
 
-          <div id="sns_mainmidle" class="clearfix">
-            <!-- primary content -->
-            <div class="page-title">
-              <h1><?php _e( 'Sorry, nothing to display.', 'wpeasy' ); ?></h1>
-            </div>
-            <div class="std">
+      </div><!-- row -->
+    </div><!-- container -->
+  </div><!-- sns_content -->
 
-            </div>
-            <!-- // primary content -->
-          </div>
-
-          <?php endif; ?>
-
-        </div>
-      </div>
-    </div>
-  </div>
 <?php get_footer(); ?>

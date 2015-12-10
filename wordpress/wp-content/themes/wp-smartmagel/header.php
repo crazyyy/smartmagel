@@ -68,26 +68,6 @@
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/respond.js"></script>
   <![endif]-->
 
-<!--   <script type="text/javascript">
-  //<![CDATA[
-  Mage.Cookies.path = '/';
-  Mage.Cookies.domain = '.www.cottonballlights.pl';
-  //]]>
-</script>
- -->
-<!--   <script type="text/javascript">
-  //<![CDATA[
-  if (typeof SNS_QV == 'undefined') SNS_QV = {};
-  SNS_QV.SETTING = {
-    POP_WIDTH: 0,
-    POP_HEIGHT: 0,
-    BASE_URL: 'http://www.cottonballlights.pl/',
-    SELECTOR: '',
-    TEXT: 'Szybki podgląd'
-  };
-  //]]
-</script> -->
-
   <script type="text/javascript">
     //<![CDATA[
     function isHandheldDevices() {
@@ -173,7 +153,6 @@
                 <script type="text/javascript">
                   //<![CDATA[
                   if (!IS_HANDHELD) {
-
 
                   } else {
                     jQuery('.mini-cart').addClass('handheld');
@@ -262,40 +241,6 @@
                 </ul>
               </div>
 
-              <script>
-                jQuery(document).ready(function($) {
-                  $('#menu_collapse').SnsAccordion({
-                    btn_open: '<i class="fa fa-caret-down"></i>',
-                    btn_close: '<i class="fa fa-caret-up"></i>',
-                    accordion: false,
-                    expand: false
-                  });
-                  if ($('#sns_right').length) {
-                    $('#sns_mommenu').addClass('has-right');
-                    $('#sns_mommenu .btn.rightsidebar').css('display', 'inline-block').on('click', function() {
-                      if ($('#sns_right').hasClass('active')) {
-                        $(this).find('.overlay').fadeOut(250);
-                        $('#sns_right').removeClass('active');
-                      } else {
-                        $('#sns_right').addClass('active');
-                        $(this).find('.overlay').fadeIn(250);
-                      }
-                    });
-                  }
-                  if ($('#sns_left').length) {
-                    $('#sns_mommenu').addClass('has-left');
-                    $('#sns_mommenu .btn.leftsidebar').css('display', 'inline-block').on('click', function() {
-                      if ($('#sns_left').hasClass('active')) {
-                        $(this).find('.overlay').fadeOut(250);
-                        $('#sns_left').removeClass('active');
-                      } else {
-                        $('#sns_left').addClass('active');
-                        $(this).find('.overlay').fadeIn();
-                      }
-                    });
-                  }
-                });
-              </script>
             </div>
           </div>
         </div>

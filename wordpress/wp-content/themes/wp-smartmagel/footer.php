@@ -120,8 +120,6 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-7 col-xs-12">
-            <!--<div class="footer_menu clearfix">
-                  </div>-->
             <div class="sns-copyright">
               &copy; <?php echo date("Y"); ?> Собственность <?php bloginfo('name'); ?>.
             </div>
@@ -130,42 +128,10 @@
       </div>
     </div>
 
-    <div class="op24check"></div>
     <?php wp_footer(); ?>
 
-
-    <style>
-      .qONjs {
-        display: none;
-      }
-    </style>
     <a id="sns-totop" href="http://www.cottonballlights.pl/#" style="display: none;"><i class="fa fa-angle-up"></i></a>
-    <script type="text/javascript">
-      jQuery(function($) {
-        // back to top
-        $("#sns-totop").hide();
-        $(function() {
-          var wh = $(window).height();
-          var whtml = $(document).height();
-          $(window).scroll(function() {
-            if ($(this).scrollTop() > whtml / 10) {
-              $('#sns-totop').fadeIn();
-            } else {
-              $('#sns-totop').fadeOut();
-            }
-          });
-          $('#sns-totop').click(function() {
-            $('body,html').animate({
-              scrollTop: 0
-            }, 800);
-            return false;
-          });
-        });
-        // end back to top
-      });
-    </script>
   </section>
-
 
   <ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-1" tabindex="0" style="display: block;"></ul>
 </body>

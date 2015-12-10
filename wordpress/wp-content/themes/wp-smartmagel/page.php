@@ -5,9 +5,10 @@
     <div class="container">
       <div class="row">
         <div id="sns_main" class="col-md-12 col-main">
+          <div id="sns_mainmidle" class="clearfix">
+
           <?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
-          <div id="sns_mainmidle" class="clearfix">
             <!-- primary content -->
             <div class="page-title">
               <h1><?php the_title(); ?></h1>
@@ -16,25 +17,23 @@
               <?php the_content(); ?>
             </div>
             <!-- // primary content -->
-          </div>
 
           <?php endwhile; else: // If 404 page error ?>
 
-          <div id="sns_mainmidle" class="clearfix">
             <!-- primary content -->
             <div class="page-title">
               <h1><?php _e( 'Sorry, nothing to display.', 'wpeasy' ); ?></h1>
             </div>
             <div class="std">
-
+              <h2><a href="<?php echo home_url(); ?>"><?php _e( 'Return home?', 'wpeasy' ); ?></a></h2>
             </div>
             <!-- // primary content -->
-          </div>
 
           <?php endif; ?>
 
-        </div>
-      </div>
-    </div>
-  </div>
+          </div><!-- sns_mainmidle -->
+        </div><!-- sns_main -->
+      </div><!-- row -->
+    </div><!-- container -->
+  </div><!-- sns_content -->
 <?php get_footer(); ?>

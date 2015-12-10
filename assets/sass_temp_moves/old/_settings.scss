@@ -2292,12 +2292,9 @@ website:    http://www.themepunch.com
     margin-top: -20px;
     margin-left: -20px;
 
-    -webkit-animation: tp-rotateplane 1.2s infinite ease-in-out;
-            animation: tp-rotateplane 1.2s infinite ease-in-out;
+    animation: tp-rotateplane 1.2s infinite ease-in-out;
 
-    -webkit-border-radius: 3px;
-       -moz-border-radius: 3px;
-            border-radius: 3px;
+    border-radius: 3px;
     background: url(../img/loader1.gif) no-repeat center center;
     background-color: #fff;
     -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, .15);
@@ -2309,12 +2306,9 @@ website:    http://www.themepunch.com
     margin-top: -20px;
     margin-left: -20px;
 
-    -webkit-animation: tp-rotateplane 1.2s infinite ease-in-out;
-            animation: tp-rotateplane 1.2s infinite ease-in-out;
+    animation: tp-rotateplane 1.2s infinite ease-in-out;
 
-    -webkit-border-radius: 3px;
-       -moz-border-radius: 3px;
-            border-radius: 3px;
+    border-radius: 3px;
     background-color: #fff;
     -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, .15);
             box-shadow: 0 0 20px 0 rgba(0, 0, 0, .15);
@@ -2324,9 +2318,7 @@ website:    http://www.themepunch.com
     height: 44px;
     margin: -22px -22px;
 
-    -webkit-border-radius: 3px;
-       -moz-border-radius: 3px;
-            border-radius: 3px;
+    border-radius: 3px;
     background: url(../img/loader.gif) no-repeat 10px 10px;
     background-color: #fff;
   }
@@ -2336,13 +2328,11 @@ website:    http://www.themepunch.com
     margin-top: -20px;
     margin-left: -20px;
 
-    -webkit-animation: tp-scaleout 1.0s infinite ease-in-out;
-            animation: tp-scaleout 1.0s infinite ease-in-out;
+    animation: tp-scaleout 1.0s infinite ease-in-out;
 
     border-radius: 100%;
     background-color: #f00;
-    -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, .15);
-            box-shadow: 0 0 20px 0 rgba(0, 0, 0, .15);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .15);
   }
   &.spinner3 {
     width: 70px;
@@ -2357,8 +2347,7 @@ website:    http://www.themepunch.com
       width: 18px;
       height: 18px;
 
-      -webkit-animation: tp-bouncedelay 1.4s infinite ease-in-out;
-              animation: tp-bouncedelay 1.4s infinite ease-in-out;
+      animation: tp-bouncedelay 1.4s infinite ease-in-out;
 
       border-radius: 100%;
       background-color: #fff;
@@ -2383,8 +2372,7 @@ website:    http://www.themepunch.com
     height: 40px;
     margin: -20px 0 0 -20px;
 
-    -webkit-animation: tp-rotate 2.0s infinite linear;
-            animation: tp-rotate 2.0s infinite linear;
+    animation: tp-rotate 2.0s infinite linear;
     text-align: center;
     .dot1 {
       position: absolute;
