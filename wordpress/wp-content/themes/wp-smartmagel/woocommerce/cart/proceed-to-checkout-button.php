@@ -10,7 +10,7 @@
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
+  exit; // Exit if accessed directly
 }
 
 echo '<a href="' . esc_url( WC()->cart->get_checkout_url() ) . '" ><button class="btn-cart">' . __( 'Proceed to Checkout', 'woocommerce' ) . '</button></a>';
