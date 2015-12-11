@@ -99,22 +99,6 @@
           <div class="row">
             <!-- BEGIN: Logo -->
             <div class="header-left col-md-6">
-              <ul class="links hidden-xs">
-                <li class="first"><a href="http://www.cottonballlights.pl/customer/account/login/referer/aHR0cDovL3d3dy5jb3R0b25iYWxsbGlnaHRzLnBsLz9fX19TSUQ9VQ,,/" title="Zaloguj się">Zaloguj się</a></li>
-                <li class="separator">lub</li>
-                <li class=" last"><a href="http://www.cottonballlights.pl/customer/account/create/" title="Zarejestruj się">Zarejestruj się</a></li>
-              </ul>
-              <script type="text/javascript">
-                jQuery(document).ready(function($) {
-                  $('.header-left ul.links').addClass('hidden-xs');
-                  $('.header-left ul.links li').each(function() {
-                    href = String($(this).find('a').attr('href'));
-                    if (href.search('customer/account/create') != -1) {
-                      $(this).before('<li class="separator">lub</li>');
-                    }
-                  });
-                });
-              </script>
             </div>
             <!-- END: Logo -->
             <div class="header-right col-md-6">
