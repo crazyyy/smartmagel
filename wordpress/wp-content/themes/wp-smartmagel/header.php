@@ -16,47 +16,15 @@
   <?php wp_head(); ?>
   <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/print.css" media="print">
 
-
-</head>
-
-
-
-<!--   <script type="text/javascript" async="" src="<?php echo get_template_directory_uri(); ?>/js/old/pinit_main.js"></script> -->
-
-<!--   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/qon.js" async="async"></script> -->
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/prototype.js"></script>
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/ccard.js"></script>
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/validation.js"></script>
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/builder.js"></script>
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/effects.js"></script>
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/dragdrop.js"></script>
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/controls.js"></script>
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/slider.js"></script>
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/js.js"></script>
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/form.js"></script>
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/menu.js"></script>
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/translate.js"></script>
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/cookies.js"></script>
-
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.js"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-noconflict.js"></script>
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.cookie.min.js"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.easing.js"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
-
-<!--   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/baseurl.js"></script> -->
-
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/owl.carousel.min.js"></script>
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.jqtransform.js"></script>
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.fancybox.pack.js"></script>
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.fancybox-buttons.js"></script>
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.fancybox-media.js"></script>
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.fancybox-thumbs.js"></script>
 
-<!--   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/rapidsearch.js"></script> -->
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/jquery.themepunch.plugins.min.js"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/jquery.themepunch.revolution.min.js"></script>
-<!--   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/twitterfetcher-min.js"></script> -->
+
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/jquery.sticky-kit.min.js"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/sns-extend.js"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/old/sns-script.js"></script>
@@ -69,7 +37,7 @@
   <![endif]-->
 
   <script type="text/javascript">
-    //<![CDATA[
+
     function isHandheldDevices() {
       var check = false;
       (function(a) {
@@ -81,12 +49,10 @@
       })(navigator.userAgent || navigator.vendor || window.opera);
       return check;
     }
-    var SKIN_URL = 'http://www.cottonballlights.pl/skin/frontend/default/cottonballlights';
-    var TMPL_NAME = 'cottonballlights';
-    var TMPL_COOKIE = null;
+
     var IS_HANDHELD = isHandheldDevices();
     var KEEP_MENU = 1;
-    //]]>
+
   </script>
 </head>
 <body <?php body_class(); ?>>

@@ -442,3 +442,10 @@ div {
     }
   }
 }
+.btn-cart {
+  &:hover {
+    a {
+      color: #fff;
+    }
+  }
+}

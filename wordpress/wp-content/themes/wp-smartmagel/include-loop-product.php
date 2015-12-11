@@ -46,7 +46,7 @@
             <?php
             global $product;
             echo apply_filters( 'woocommerce_loop_add_to_cart_link',
-              sprintf( '<button onclick="setLocation(\'%s\')" data-product_id="%s" data-product_sku="%s" data-quantity="1" class="btn-cart" ><i class="fa fa-shopping-cart"></i><span>%s</span></button>',
+              sprintf( '<button class="btn-cart"><a href="%s" data-product_id="%s" data-product_sku="%s" data-quantity="1" class="btn-cart"><span>%s</span></a></button>',
                 esc_url( $product->add_to_cart_url() ),
                 esc_attr( $product->id ),
                 esc_attr( $product->get_sku() ),
@@ -54,9 +54,12 @@
               ),
             $product );
             ?>
+
           </div>
         </div><!-- item-content clearfix -->
       </div><!-- info-inner -->
     </div><!-- item-info -->
   </div><!-- item-inner -->
 </div><!-- item -->
+
+
